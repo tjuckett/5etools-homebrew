@@ -2563,6 +2563,308 @@
 				"P",
 				"S"
 			]
+		},
+		{
+			"name": "Varek Ironfist",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 14,
+			"passive": 14,
+			"cr": "2",
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"skill": {
+				"athletics": "+5",
+				"investigation": "+3",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"trait": [
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, Varek can utter a special command or warning whenever a non-hostile creature he can see within 30 feet makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Varek. A creature can benefit from only one Leadership die at a time. This effect ends if Varek is {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Varek makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"attachedItems": [
+				"heavy crossbow|phb",
+				"longsword|phb"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Warforged Beetle",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 2",
+				"average": 6
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 5,
+			"wis": 10,
+			"cha": 3,
+			"passive": 10,
+			"cr": "2",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Understands the languages of its creator but can't speak"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Random Elemental Power",
+					"entries": [
+						"Each robotic beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
+						"Fire: The beetle deals an additional {@damage 1d6} fire damage with its attacks. It also has resistance to fire damage.",
+						"Ice: The beetle deals an additional {@damage 1d6} cold damage with its attacks. It also has resistance to cold damage.",
+						"Lightning: The beetle deals an additional {@damage 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
+						"Acid: The beetle deals an additional {@damage 1d6} acid damage with its attacks. It also has resistance to acid damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beetle makes two bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, plus 3 ({@damage 1d6}) elemental damage based on type damage."
+					]
+				},
+				{
+					"name": "Elemental Burst {@recharge 5}",
+					"entries": [
+						"The beetle releases a burst of elemental energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Lyra Shadowstep, Mercenary Scout",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "2",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"nature": "+3",
+				"perception": "+4",
+				"stealth": "+6",
+				"survival": "+4"
+			},
+			"trait": [
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"Lyra has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lyra makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"damageTags": [
+				"P"
+			]
 		}
 	]
 }
