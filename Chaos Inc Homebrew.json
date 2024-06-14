@@ -2865,6 +2865,322 @@
 			"damageTags": [
 				"P"
 			]
+		},
+		{
+			"name": "Brak the Tracker",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-orc"
+				]
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 15",
+				"average": 42
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"passive": 14,
+			"cr": "2",
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4",
+				"survival": "+4"
+			},
+			"trait": [
+				{
+					"name": "Favored Enemey",
+					"entries": [
+						"Brak has advantage on Wisdom (Survival) checks to track his favored enemies, as well as on Intelligence checks to recall information about them."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Brak makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"attachedItems": [
+				"battleaxe|phb",
+				"hand crossbow|phb"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Kael the Silent",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 14,
+			"wis": 13,
+			"cha": 12,
+			"passive": 13,
+			"cr": "2",
+			"languages": [
+				"Common",
+				"Thieves' cant"
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+3",
+				"perception": "+3",
+				"sleight of hand": "+6",
+				"stealth": "+6"
+			},
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During his first turn, Kael has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Kael scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn).",
+					"entries": [
+						"Kael deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Kael that isn’t {@condition incapacitated} and Kael doesn’t have disadvantage on the attack roll."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"action": [
+				{
+					"name": "shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"attachedItems": [
+				"light crossbow|phb",
+				"shortsword|phb"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Ice Elemental",
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"source": "ChaosIncHomebrew",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "10d10 + 30",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"passive": 10,
+			"cr": "4",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Primordial"
+			],
+			"languageTags": [
+				"P"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from Nonmagical Attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Freezing Aura",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of the ice elemental takes 5 ({@damage 1d10}) cold damage and must succeed on a {@dc 13} Constitution saving throw or have its speed reduced by 10 feet until the start of the creature's next turn."
+					]
+				},
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The ice elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ice elemental makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, plus 5 ({@damage 1d10}) cold damage."
+					]
+				},
+				{
+					"name": "Ice Breath {@recharge 5}",
+					"entries": [
+						"The ice elemental exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 13} Constitution saving throw, taking 18 ({@damage 4d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"damageTags": [
+				"B",
+				"C"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
 		}
 	]
 }
