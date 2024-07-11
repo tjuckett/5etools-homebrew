@@ -1,3186 +1,3221 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "ChaosIncHomebrew",
-				"abbreviation": "CIH",
-				"full": "Chaos Inc Homebrew",
-				"url": "",
-				"authors": [
-					"Timothy Juckett"
-				],
-				"convertedBy": []
-			}
-		]
-	},
-	"monster": [
-		{
-			"name": "Nicodemus",
-			"source": "ChaosIncHomebrew",
-			"page": "0",
-			"size": "Large",
-			"type": {
-				"type": "Celestial",
-				"tags": [
-					"fallen"
-				]
-			},
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"Judas Noose"
-					]
-				}
-			],
-			"hp": {
-				"average": 99,
-				"formula": "18d10"
-			},
-			"speed": {
-				"fly": "50",
-				"swim": "50"
-			},
-			"str": 16,
-			"dex": 21,
-			"con": 16,
-			"int": 30,
-			"wis": 18,
-			"save": {
-				"dex": "+12",
-				"intelligence": "+17",
-				"wis": "+11",
-				"charisma": "+11"
-			},
-			"skill": {
-				"insight": "+11",
-				"persuasion": "+11",
-				"arcana": "+17",
-				"deception": "+11",
-				"history": "+17",
-				"intimidation": "+11",
-				"perception": "+11",
-				"religion": "+17"
-			},
-			"senses": [
-				"darkvision 120 ft.",
-				"truesight 30 ft."
-			],
-			"passive": 10,
-			"immune": [
-				"Fire",
-				"Poison"
-			],
-			"conditionImmune": [
-				"Charmed",
-				"Frightened",
-				"Incapacitated",
-				"Poisoned"
-			],
-			"languages": [
-				"Abyssal",
-				"Common",
-				"Deep Speech",
-				"Infernal",
-				"Celestial",
-				"Draconic"
-			],
-			"trait": [
-				{
-					"name": "Innate Spellcasting",
-					"entries": [
-						"Nicodemus's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). The empyrean can innately cast the following spells, requiring no material components:\n\nAt will: <i>greater restoration</i>, <i>pass without trace</i>, <i>water breathing</i>, <i>water walk</i>\n1/day: <i>commune</i>, <i>dispel evil and good</i>, <i>earthquake</i>, <i>fire storm</i>, <i>plane shift</i> (self only)"
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"When Nicodemus fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"Nicodemus has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"entries": [
-						"Nicodemus's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Devil Sight",
-					"entries": [
-						"Magical darkness doesn't impede Nicodemus's Darkvision"
-					]
-				},
-				{
-					"name": "Regeneration",
-					"entries": [
-						"Nicodemus regains 20 hit points at the start of its turn."
-					]
-				},
-				{
-					"name": "Shadow Sight",
-					"entries": [
-						"Nicodemus can as an action look through the shadow of any creature on the same plane of existence as him. In order to do this Nicodemus does not need to have met the creature only be aware of them. While looking through a shadow Nicodemus is still aware of his surroundings but has disadvantage on perception checks. This ability only works if the target is casting a shadow. it does not function if the target is in complete blackness."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Nicodemus makes three melee attacks"
-					]
-				},
-				{
-					"name": "Tendril of Shadow",
-					"entries": [
-						"<i>Melee Weapon Attack:</i> +10 to hit, reach 15 ft., one target. <i>Hit:</i> 21 (4d8 + 3) bludgeoning damage. On hit the target is grappled and restrained (Escape DC 16). While restrained the target takes 3d10 Necrotic damage at the start of each of Nicodemus turn. While grappled by the Tendril, spell casters magic is suppressed. In order to cast any spells while grappled a spellcaster must make a DC 15 Concentration Check. On a Success the spell goes off as normal, on a failure the spell fails and the spell slot is used."
-					]
-				},
-				{
-					"name": "Saber",
-					"entries": [
-						"<i>Melee Weapon Attack:</i> +12 to hit, reach 5 ft., one target. <i>Hit:</i> 9 (1d8 + 5) slashing damage plus 18 (4d8) necrotic damage."
-					]
-				},
-				{
-					"name": "Bolt",
-					"entries": [
-						"<i>Ranged Spell Attack:</i> +15 to hit, range 600 ft., one target. <i>Hit:</i> 24 (7d6) damage of one of the following types (empyrean’s choice): acid, cold, fire, force, lightning, radiant, or thunder."
-					]
-				}
-			],
-			"reaction": [],
-			"legendary": [
-				{
-					"name": "Attack",
-					"entries": [
-						"Nicodemus makes makes one saber or tendril attack."
-					]
-				},
-				{
-					"name": "Darkness",
-					"entries": [
-						"Nicodemus extends his shadow out 30 feet, anyone caught in the shadow rolls a DC Wisdom save or be blind till the beginning of Nicodemus's next turn"
-					]
-				}
-			],
-			"legendaryGroup": null,
-			"environment": [],
-			"soundClip": null,
-			"traitTags": [
-				"Innate Spellcasting",
-				"Legendary Resistance (3/Day)",
-				"Magic Resistance",
-				"Magic Weapons",
-				"Devil Sight",
-				"Regeneration",
-				"Shadow Sight"
-			],
-			"senseTags": null,
-			"actionTags": [
-				"Multiattack",
-				"Tendril of Shadow",
-				"Saber",
-				"Bolt"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null
-		},
-		{
-			"name": "Yonkic",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"Natural Armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 84,
-				"formula": "14d6 + 42"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 13,
-			"con": 16,
-			"int": 10,
-			"wis": 12,
-			"cha": 20,
-			"passive": 10,
-			"cr": "12",
-			"senses": [
-				"darkvision 60 ft"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Draconic"
-			],
-			"save": {
-				"con": "+3",
-				"cha": "+5"
-			},
-			"skill": {
-				"insight": "+1",
-				"intimidation": "+5",
-				"persuasion": "+5",
-				"religion": "+0"
-			},
-			"action": [
-				{
-					"name": "Shortsword",
-					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 2}) piercing damage."
-					]
-				},
-				{
-					"name": "Hound of Ill Omen",
-					"entries": [
-						"As a bonus action, Yonkic can spend 3 sorcery points to magically summon a hound of ill omen to target one creature he can see within 120 feet of him. The hound uses the dire wolf's stats with the following changes.\n- Medium instead of large.\n- Counts as monstrosity instead of beast\n- Can move through objects and creatures as if difficult terrain.\n- The hound automatically knows its target location even if it is hidden.\nThe hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
-					]
-				}
-			],
-			"immune": [],
-			"vulnerable": [],
-			"resist": [
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"trait": [
-				{
-					"name": "Sorcery Points",
-					"entries": [
-						"Yonkic has 14 sorcery points to spend on metamagic or to regain spells"
-					]
-				},
-				{
-					"name": "Twinned Spell",
-					"entries": [
-						"When Yonkic casts a spell that targets only one creature and doesn't have a range of self, he can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (Minimum 1)."
-					]
-				},
-				{
-					"name": "Seek Spell",
-					"entries": [
-						"If Yonkic makes an attack roll for a spell and misses, he can spend 2 sorcery points to reroll the d20, he must use the new roll. He can use Seeking Spell even if he has already used a different Metamagic option during the casting of the spell."
-					]
-				},
-				{
-					"name": "Empowered Spell",
-					"entries": [
-						"When Yonkic rolls damage for a spell, he can spend 1 sorcery point to reroll up to 5 of those dice. He must use the new rolls. He can use Empowered Spell even if he has already used a different Metamagic option during the casting of the spell."
-					]
-				},
-				{
-					"name": "Strength of the Grave",
-					"entries": [
-						"When damage reduces Yonkic to 0 hit points, he can make a Charisma saving throw (DC 5 + the damage taken). On a success, he instead drop to 1 hit point. He can't use this feature if he is reduced to 0 hit points by radiant damage or by a critical hit. After the saving throw succeeds, he can't use this feature again until you finish a long rest."
-					]
-				},
-				{
-					"name": "Shadow Walk",
-					"entries": [
-						"Yonkic can step from one shadow into another. When he is in dim light or darkness, as a bonus action, he can magically teleport up to 120 feet to an unoccupied space he can see that is also in dim light or darkness."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"Yonkic is a 14th-level spellcaster. Yonkic's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Yonkic has the following sorcerer spells prepared:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell fire bolt}",
-								"{@spell message}",
-								"{@spell mending}",
-								"{@spell light}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell detect magic}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell scorching ray}",
-								"{@spell hold person}",
-								"{@spell misty step}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell dispel magic}",
-								"{@spell counterspell}",
-								"{@spell haste}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell banishment}",
-								"{@spell polymorph}",
-								"{@spell confusion}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell animate objects}",
-								"{@spell synaptic static|XGE}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell disintegrate}"
-							]
-						},
-						"7": {
-							"slots": 1,
-							"spells": [
-								"{@spell crown of stars|XGE}"
-							]
-						}
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
-			"reaction": [],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Sorcery Points",
-				"Twinned Spell",
-				"Seek Spell",
-				"Empowered Spell",
-				"Strength of the Grave",
-				"Shadow Walk",
-				"Spellcasting"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": true,
-			"fluff": {
-				"entries": [
-					""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": ""
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Nesrith",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"Natural Armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 60,
-				"formula": "12d6 + 24"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 13,
-			"con": 15,
-			"int": 20,
-			"wis": 12,
-			"cha": 9,
-			"passive": 10,
-			"cr": "12",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common"
-			],
-			"save": {
-				"int": "+9",
-				"wis": "+5"
-			},
-			"skill": {
-				"arcana": "+9",
-				"athletics": "+5",
-				"intimidation": "+3",
-				"history": "+9"
-			},
-			"action": [
-				{
-					"name": "Momentary Stasis (5/Day)",
-					"entries": [
-						"Nesrith can magically force a large or smaller creature she can see within 60 feet of her to make a Constitution saving throw against her DC 18. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of her next turn or until the creature takes any damage. While encased in this way, the creature is incapacitated and has a speed of 0."
-					]
-				}
-			],
-			"immune": [],
-			"vulnerable": [],
-			"resist": [
-				"lightning"
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Temporal Awareness",
-					"entries": [
-						"Nesrith can add her Intelligence modifier to her initiative rolls."
-					]
-				},
-				{
-					"name": "Arcane Abeyance (1/Day)",
-					"entries": [
-						"When Nesrith casts a spell using a spell slot of 4th level or lower, she can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.\n\nA creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses her spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Chronal Shift (2/Day)",
-					"entries": [
-						"Nesrith can magically exert limited control over the flow of time around a creature. As a reaction, after Nesrith or a creature she can see within 30 feet of her makes an attack roll, an ability check, or a saving throw, she can force the creature to reroll. She makes this decision after she sees whether the roll succeeds or fails. The target must use the result of the second roll."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"Nesrith is a 12th-level spellcaster. Nesrith's spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Nesrith has the following sorcerer spells prepared:"
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell true strike}",
-								"{@spell minor illusion}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"{@spell catapult}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell charm person}"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"{@spell aganazzar's scorcher|XGE}",
-								"{@spell hold person}",
-								"{@spell invisibility}"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"{@spell counterspell}",
-								"{@spell hypnotic pattern}",
-								"{@spell fireball}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"{@spell wall of fire}",
-								"{@spell mordenkainen's faithful hound}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell steel wind strike|XGE}",
-								"{@spell far step|XGE}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell disintegrate}"
-							]
-						}
-					},
-					"ability": "int",
-					"type": "spellcasting"
-				}
-			],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Temporal Awareness",
-				"Arcane Abeyance (1/Day)",
-				"Spellcasting"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": true,
-			"fluff": {
-				"entries": [
-					""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": ""
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Xyriel",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"Plate"
-					]
-				}
-			],
-			"hp": {
-				"average": 96,
-				"formula": "12d10 + 36"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 20,
-			"dex": 14,
-			"con": 16,
-			"int": 14,
-			"wis": 10,
-			"cha": 9,
-			"passive": 10,
-			"cr": "12",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Draconic"
-			],
-			"save": {
-				"str": "+9",
-				"con": "+7"
-			},
-			"skill": {
-				"athletics": "+9",
-				"intimidation": "+3",
-				"medicine": "+4",
-				"religion": "+6"
-			},
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Xyriel can make 4 attacks"
-					]
-				},
-				{
-					"name": "Flame Tongue Longsword",
-					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 0}) piercing damage.\n\nXyriel can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until Xyriel uses a bonus action to speak the command word again or until he drops or sheathes the sword."
-					]
-				},
-				{
-					"name": "Psionic Strike",
-					"entries": [
-						"Xyriel can propel his weapons with psionic force. Once on each of his turns, immediately after he hits a target within 30 feet of him with an attack and deal damage to it with a weapon, he can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus 2."
-					]
-				},
-				{
-					"name": "Telekinetic Movement (1/Day)",
-					"entries": [
-						"Xyriel can move an object or a creature with his mind. As an action, he can target one loose object that is Large or smaller or one willing creature, other than himself. If he can see the target and it is within 30 feet of him, he can move it up to 30 feet to an unoccupied space he can see. Alternatively, if it is a Tiny object, he can move it to or from his hand. Either way, he can move the target horizontally, vertically, or both. Xyriel can expend a Psionic Energy die to take this ability again again."
-					]
-				}
-			],
-			"immune": [
-				"cold"
-			],
-			"vulnerable": [],
-			"resist": [
-				"fire",
-				"psychic"
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Last Stand Armor",
-					"entries": [
-						"Xyriel has a +1 bonus to AC while wearing this armor, which shimmers softly. If Xyriel dies while wearing the armor, it is destroyed, and each celestial, fey, and fiend within 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there."
-					]
-				},
-				{
-					"name": "Shield of Uven Rune",
-					"entries": [
-						"Effects already imbedded in sheet"
-					]
-				},
-				{
-					"name": "Great Weapon Fighting",
-					"entries": [
-						"When Xyriel rolls a 1 or 2 on a damage die for an attack he makes with a melee weapon that he is wielding with two hands, he can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for him to gain this benefit."
-					]
-				},
-				{
-					"name": "Telekinetic Thrust",
-					"entries": [
-						"When Xyriel deals damage to a target with his Psionic Strike, he can force the target to make a Strength saving throw against a DC 15. If the save fails, he can knock the target prone or move it up to 10 feet in any direction horizontally."
-					]
-				},
-				{
-					"name": "Psychic Dice",
-					"entries": [
-						"Xyriel harbors a wellspring of psionic energy within himself. This energy is represented by 10 psionic energy dice, each is a d10. Certain abilities use these dice and they are replenished at dawn."
-					]
-				},
-				{
-					"name": "Shield - Bane (1/Day)",
-					"entries": [
-						"Xyriel can cast the bane spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute."
-					]
-				},
-				{
-					"name": "Second Wind (1/Day)",
-					"entries": [
-						"Xyriel has a limited well of stamina that he can draw on to protect himself from harm. On his turn, he can use a bonus action to regain hit points equal to 1d10 + your fighter level."
-					]
-				},
-				{
-					"name": "Action Surge (1/Day)",
-					"entries": [
-						"On Xyriel's turn, he can take one additional action."
-					]
-				},
-				{
-					"name": "Indomitable (2/Day)",
-					"entries": [
-						"Xyriel can reroll a saving throw that he fails. If he does so, he must use the new roll."
-					]
-				},
-				{
-					"name": "Psi-Powered Leap (1/Day)",
-					"entries": [
-						"As a bonus action, Xyriel can propel his body with his mind. He gains a flying speed equal to twice his walking speed until the end of the current turn. He can expend a Psionic Energy die to take it again."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Shield - Deadly Rebuke",
-					"entries": [
-						"Immediately after a creature hits Xyriel with a melee attack, he can use his reaction to deal 3d6 necrotic damage to that creature."
-					]
-				},
-				{
-					"name": "Protective Field",
-					"entries": [
-						"When Xyriel or another creature he can see within 30 feet of him takes damage, he can use his reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus 2, as you create a momentary shield of telekinetic force."
-					]
-				}
-			],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Last Stand Armor",
-				"Shield of Uven Rune",
-				"Great Weapon Fighting",
-				"Telekinetic Thrust",
-				"Psychic Dice",
-				"Shield - Bane (1/Day)",
-				"Second Wind (1/Day)",
-				"Action Surge (1/Day)",
-				"Indomitable (2/Day)",
-				"Psi-Powered Leap (1/Day)"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": true,
-			"fluff": {
-				"entries": [
-					""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": ""
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Urograx",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"None"
-					]
-				}
-			],
-			"hp": {
-				"average": 120,
-				"formula": "12d12 + 48"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 20,
-			"dex": 15,
-			"con": 18,
-			"int": 10,
-			"wis": 11,
-			"cha": 8,
-			"passive": 10,
-			"cr": "12",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Draconic"
-			],
-			"save": {
-				"str": "+11",
-				"con": "+10"
-			},
-			"skill": {
-				"athletics": "+11",
-				"intimidation": "+5"
-			},
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Urograx can make two attacks, 3 with rage."
-					]
-				},
-				{
-					"name": "Sword of Wounding",
-					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage.\n\nOnce per turn, when Urograx hits a creature with an attack using this magic weapon, he can wound the target. At the start of each of the wounded creature's turns, it takes ({@damage 1d4}) necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success."
-					]
-				},
-				{
-					"name": "Animated Shield",
-					"entries": [
-						"While holding this shield, Urograx can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in his space to protect him as if he were wielding it, leaving his hands free. The shield remains animated for 1 minute, until he uses a bonus action to end this effect, or until he is incapacitated or dies, at which point the shield falls to the ground or into his hand if he has one free."
-					]
-				},
-				{
-					"name": "Acid Breath (Recharge 5-6)",
-					"entries": [
-						"Urograx exhales acid in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 21 ({@damage 6d6}) acid damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			],
-			"immune": [],
-			"vulnerable": [],
-			"resist": [
-				"acid"
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Rage",
-					"entries": [
-						"Urograx can rage 5 times per day. While raging, Urograx gains the following benefits:\n\n- Urograx has advantage on Strength checks and Strength saving throws. \n- When Urograx makes a melee weapon attack using Strength, Urograx gains a +3 bonus to the damage roll.\n- Urograx has resistance to bludgeoning, piercing, and slashing damage."
-					]
-				},
-				{
-					"name": "Danger Sense",
-					"entries": [
-						"Urograx has an uncanny sense of when things nearby aren't as they should be, giving Urograx an edge when he dodges away from danger. Urograx has advantage on Dexterity saving throws against effects that he can see, such as traps and spells. To gain this benefit, he can't be blinded, deafened, or incapacitated."
-					]
-				},
-				{
-					"name": "Reckless",
-					"entries": [
-						"At the start of its turn, Urograx can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
-					]
-				},
-				{
-					"name": "Feral Instincts",
-					"entries": [
-						"Urograx has advantage on initiative rolls. Additionally, if Urograx is surprised at the beginning of combat and isn't incapacitated, he can act normally on his first turn, but only if he enters rage before doing anything else on that turn."
-					]
-				},
-				{
-					"name": "Brutal Critical",
-					"entries": [
-						"Urograx can roll two additional weapon damage die when determining the extra damage for a critical hit with a melee attack."
-					]
-				},
-				{
-					"name": "Relentless Rage",
-					"entries": [
-						"Rage can keep Urograx fighting despite grievous wounds. If he drops to 0 hit points while you're raging and doesn't die outright, he can make a DC 10 Constitution saving throw. If he succeeds, he drops to 1 hit point instead. Each time he uses this feature after the first, the DC increases by 5."
-					]
-				},
-				{
-					"name": "Mindless Rage",
-					"entries": [
-						"Urograx can't be charmed or frightened while raging. If he is charmed or frightened when he enters rage, the effect is suspended for the duration of the rage"
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Instinctive Pounce",
-					"entries": [
-						"When a creature ends its turn within 15 feet of Urograx, he can use his reaction to move up to half his speed to a space closer to the creature. This movement doesn't provoke opportunity attacks."
-					]
-				},
-				{
-					"name": "Retaliation",
-					"entries": [
-						"When Urograx takes damage from a creature that is within 5 feet of him, he can use his reaction to make a melee weapon attack against that creature."
-					]
-				}
-			],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Rage",
-				"Danger Sense",
-				"Reckless",
-				"Feral Instincts",
-				"Brutal Critical",
-				"Relentless Rage",
-				"Mindless Rage"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": true,
-			"fluff": {
-				"entries": [
-					"Half Dragon - Acid"
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": ""
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Vorrash",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"Studded leather"
-					]
-				}
-			],
-			"hp": {
-				"average": 85,
-				"formula": "17d8 + 17"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 20,
-			"con": 13,
-			"int": 12,
-			"wis": 8,
-			"cha": 16,
-			"passive": 10,
-			"cr": "14",
-			"senses": [],
-			"senseTags": [],
-			"languages": [
-				"Common"
-			],
-			"save": {
-				"dex": "+10",
-				"int": "+6",
-				"wis": "+4"
-			},
-			"skill": {
-				"acrobatics": "+10",
-				"deception": "+13",
-				"investigation": "+11",
-				"persuasion": "+8",
-				"sleight of hand": "+15",
-				"stealth": "+15"
-			},
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"If Vorrash attacks with the Psychic Blade he can make an additional attack as a bonus action but the damage is 1d4 instead of 1d6."
-					]
-				},
-				{
-					"name": "Psychic Blade",
-					"entries": [
-						"{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 60/60 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage in melee, or 88 ({@damage 1d6 + 5})  piercing damage at range."
-					]
-				},
-				{
-					"name": "Shortbow",
-					"entries": [
-						"{@atk rw} {@hit 10} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
-					]
-				},
-				{
-					"name": "Rend Mind",
-					"entries": [
-						"Vorrash can sweep his Psychic Blades directly through a creature's mind. When he uses his Psychic Blades to deal Sneak Attack damage to a creature, he can force that target to make a Wisdom saving throw (18). If the save fails, the target is stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Vorrash can expend three Psionic Energy dice to use this ability again."
-					]
-				},
-				{
-					"name": "Psychic Teleportation",
-					"entries": [
-						"As a bonus action, Vorrash can manifest one of his Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space he can see, up to a number of feet away equal to 10 times the number rolled. He then teleports to that space, and the blade vanishes."
-					]
-				},
-				{
-					"name": "Psychic Veil",
-					"entries": [
-						"Vorrash can weave a veil of psychic static to mask himself. As an action, he can magically become invisible, along with anything he is wearing or carrying, for 1 hour or until he dismisses this effect (no action required). This invisibility ends early immediately after he deals damage to a creature or he forces a creature to make a saving throw.\nHe can expend a Psionic Energy die to use this feature again."
-					]
-				}
-			],
-			"immune": [],
-			"vulnerable": [],
-			"resist": [
-				"cold"
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Sneak Attack",
-					"entries": [
-						"Once per turn, Vorrash deals an extra 7d6 damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Vorrash that isn't incapacitated and Vorrash doesn't have disadvantage on the attack roll."
-					]
-				},
-				{
-					"name": "Psychic Dice",
-					"entries": [
-						"Vorrash harbors a wellspring of psionic energy within himself. This energy is represented by Psionic Energy dice, he can use 10 of these a day and each are a d10."
-					]
-				},
-				{
-					"name": "Cunning Action",
-					"entries": [
-						"Vorrash can take a bonus action on each of his turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
-					]
-				},
-				{
-					"name": "Evasion",
-					"entries": [
-						"If Vorrash is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Vorrash instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-					]
-				},
-				{
-					"name": "Blindsense",
-					"entries": [
-						"Vorrash is aware of the location of any hidden or invisible creature within 10 feet of him."
-					]
-				},
-				{
-					"name": "Homing Strikes",
-					"entries": [
-						"If Vorrash makes an attack roll with his Psychic Blades and misses the target, he can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, he expends the Psionic Energy die."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Uncanny Dodge",
-					"entries": [
-						"When an attacker that Vorrash can see hits him with an attack, he can use his reaction to halve the attack's damage against him."
-					]
-				}
-			],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Sneak Attack",
-				"Psychic Dice",
-				"Cunning Action",
-				"Evasion",
-				"Blindsense",
-				"Homing Strikes"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": true,
-			"fluff": {
-				"entries": [
-					""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": ""
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Mutated Otyugh",
-			"size": [
-				"L"
-			],
-			"type": "aberration",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": []
-				}
-			],
-			"hp": {
-				"average": 160,
-				"formula": "16d10 + 80"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 20,
-			"dex": 11,
-			"con": 20,
-			"int": 6,
-			"wis": 14,
-			"cha": 6,
-			"passive": 10,
-			"cr": "10",
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Otyugh"
-			],
-			"save": {
-				"con": "+10",
-				"str": "+10",
-				"dex": "+5"
-			},
-			"skill": {},
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The otyugh makes four attacks: one with its bite or swallow and three with its tentacles."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
-					]
-				},
-				{
-					"name": "Swallow",
-					"entries": [
-						"The otyugh makes one bite Attack against a Large or smaller target it is Grappling. If the Attack hits, the target is swallowed, and the grapple ends. The swallowed target is Blinded and Restrained, it has total cover against Attacks and other Effects outside the otyugh, and it takes 54 ({@damage 12d8}) acid damage at the start of each of the mutated otyugh's turns. The otyugh can have only one target swallowed at a time.\nIf the otyugh dies, a swallowed creature is no longer Restrained by it and can Escape from the corpse using 5 feet of Movement, exiting prone."
-					]
-				},
-				{
-					"name": "Tentacle",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 50 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 9 ({@damage 2d8}) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has three tentacles, each of which can grapple one target."
-					]
-				},
-				{
-					"name": "Tentacle Slam",
-					"entries": [
-						"The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 26 ({@damage 6d6 + 5}) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned."
-					]
-				},
-				{
-					"name": "Spew Acid (5-6)",
-					"entries": [
-						"The otyugh spews liquid acid in a 30-foot cone. Each creature in that cone must make a DC 21 Dexterity saving throw, taking 54 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			],
-			"immune": [
-				"poison",
-				"acid"
-			],
-			"vulnerable": [],
-			"resist": [
-				"bludgeoning, piercing, and slashing from nonmagical attacks"
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Limited Telepathy",
-					"entries": [
-						"The otyugh can magically transmit simple messages and images to any creature within 120 ft. of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
-					]
-				}
-			],
-			"reaction": [],
-			"legendary": [],
-			"legendaryGroup": null,
-			"environment": [
-				""
-			],
-			"soundClip": null,
-			"traitTags": [
-				"Limited Telepathy"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"group": "",
-			"isNamedCreature": false,
-			"fluff": {
-				"entries": [
-					""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Otyugh.jpg"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Giant Sand Scorpion",
-			"size": [
-				"L"
-			],
-			"type": "aberration",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"Natural Armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "12d8 + 48",
-				"average": 102
-			},
-			"speed": {
-				"walk": 40,
-				"burrow": 30
-			},
-			"str": 15,
-			"dex": 18,
-			"con": 18,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "10",
-			"senses": [
-				"blindsight 60 ft."
-			],
-			"senseTags": [
-				"B"
-			],
-			"save": {
-				"con": "+10",
-				"str": "+8",
-				"dex": "+10"
-			},
-			"skill": {
-				"acrobatics": "+10",
-				"perception": "+6"
-			},
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"frightened",
-				"poisoned"
-			],
-			"resist": [
-				"fire"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The scorpion makes three attacks: two with its claws and one with its sting. If a creature is {@condition grappled} with its claw the scorpion can instead a pincer attack on that creature instead of a claw attack"
-					]
-				},
-				{
-					"name": "Claw",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). The scorpion has two claws, each of which can grapple only one target."
-					]
-				},
-				{
-					"name": "Sting",
-					"entries": [
-						"{@atk rw} {@hit 10} to hit, range 150/300 ft., one target. {@h}6 ({@damage 1d10 + 5}) piercing damage, and the target must make a {@dc 18} Constitution saving throw, taking 22 ({@damage 4d10}) poison damage on a failed save, or half as much damage on a successful one. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} until the end of the scorpions next turn."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d10 + 2}) damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			],
-			"conditionInflict": [
-				"grappled",
-				"paralyzed"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"B",
-				"I",
-				"P"
-			],
-			"savingThrowForced": [
-				"constitution"
-			]
-		},
-		{
-			"name": "Sand King",
-			"size": [
-				"L"
-			],
-			"type": "aberration",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "16d10 + 64",
-				"average": 152
-			},
-			"speed": {
-				"walk": 40,
-				"burrow": 30,
-				"climb": 30
-			},
-			"str": 22,
-			"dex": 14,
-			"con": 18,
-			"int": 12,
-			"wis": 16,
-			"cha": 18,
-			"passive": 19,
-			"cr": {
-				"cr": "17",
-				"lair": "18"
-			},
-			"senses": [
-				"tremorsense 60 ft.",
-				"truesight 120 ft."
-			],
-			"senseTags": [
-				"T",
-				"U"
-			],
-			"languages": [
-				"Abyssal",
-				"Common",
-				"Infernal"
-			],
-			"languageTags": [
-				"AB",
-				"C",
-				"I"
-			],
-			"save": {
-				"str": "+12",
-				"cha": "+10"
-			},
-			"skill": {
-				"athletics": "+12",
-				"deception": "+10",
-				"intimidation": "+10",
-				"perception": "+9",
-				"survival": "+9"
-			},
-			"resist": [
-				{
-					"resist": [
-						"fire"
-					]
-				},
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from non magical weapons",
-					"cond": true
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"frightened",
-				"poisoned"
-			],
-			"trait": [
-				{
-					"name": "King's Glory",
-					"entries": [
-						"The sand king has advantage on attack rolls against a {@condition poisoned} creature"
-					]
-				},
-				{
-					"name": "Monstrous Presence",
-					"entries": [
-						"Any hostile creature that starts its turn within 10 feet of the sand king must succeed a {@dc 18} wisdom saving throw or be {@condition frightened} of him until the start of the next turn"
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If the sand king fails a saving throw, it can choose to succeed instead."
-					]
-				}
-			],
-			"conditionInflict": [
-				"frightened",
-				"paralyzed",
-				"poisoned"
-			],
-			"traitTags": [
-				"Legendary Resistances"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The sand king makes two Ravenous Claw or Royal Spear attacks and one Deadly Sting attack."
-					]
-				},
-				{
-					"name": "Ravenous Claw",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) slashing damage plus 13 ({@damage 2d12}) acid damage"
-					]
-				},
-				{
-					"name": "Royal Spear",
-					"entries": [
-						"{@atk mw,rw} {@hit 12} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 13 ({@damage 2d12}) necrotic damage."
-					]
-				},
-				{
-					"name": "Deadly Sting",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, range 150/300 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage plus 22 ({@damage 4d10}) poison damage, and the target must succeed on a {@dc 18} constitution saving throw or be {@condition poisoned} for 1 minute. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} while {@condition poisoned}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"MLW",
-				"THW"
-			],
-			"bonus": [
-				{
-					"name": "For Glory (3/Day)",
-					"entries": [
-						"Each creature of the sand kings choice that is within 30 feet of it, can hear it, and not already affected by this ability, gains advantage on attack rolls until the start of the sand king's next turn."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "King's Reaction (1/Day)",
-					"entries": [
-						"When a creature within 30 feet of the sand king makes an attack roll, but before learning whether it hits or misses, the sand king can grant the creature +10 bonus to that roll."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Inspire",
-					"entries": [
-						"The sand king can inspire any ally he can see to immediately take an extra attack."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Lair Actions",
-								"entries": [
-									"On initiative count 20 (losing initiative ties), the sand king takes a lair action to cause one of the following effects; the sand king can't use the same effect two rounds in a row:",
-									{
-										"type": "list",
-										"items": [
-											"A large dust devil appears on a location and pulls any creature at a height of 50 ft toward the ground. Any creature in the dust devil must succeed on a {@dc 18} Dexterity saving throw or be pulling toward the ground and knocked {@condition prone}.",
-											"A creature within 120 ft of the sand king that he can see will be encased by sand in a desert coffin. The creature must succeed on (@dc 18} Dexterity saving or be restrained, blinded, deafened, and silenced. Any creature caught in the desert coffin can use their action to succeed on a {@dc 18} strength saving throw to break free. Otherwise the sand naturally falls away after 1 minute.",
-											"The sand king kicks sand 50 ft into the air in a 120 foot radius around him causing any creature caught in it to be blind. Any creature inside of it will be fully obscured for a round until the sand settle back down. In addition all creatures inside who cast spells must make a concentration check to maintain or cast spells while inhaling sand into their lungs."
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			"environment": [
-				"desert"
-			],
-			"group": [
-				"Chromatic Dragon"
-			],
-			"damageTags": [
-				"A",
-				"I",
-				"N",
-				"P",
-				"S"
-			],
-			"savingThrowForced": [
-				"constitution",
-				"wisdom"
-			]
-		},
-		{
-			"name": "Shadow Fang Bandit",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"Leather Armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "2d8 + 2",
-				"average": 11
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 16,
-			"con": 12,
-			"int": 14,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "1/8",
-			"dragonAge": "ancient",
-			"languages": [
-				"Common",
-				"Thieves' cant"
-			],
-			"languageTags": [
-				"C",
-				"TC"
-			],
-			"save": {
-				"dex": "+5",
-				"int": "+4"
-			},
-			"skill": {
-				"acrobatics": "+5",
-				"sleight of hand": "+7",
-				"deception": "+2",
-				"stealth": "+7"
-			},
-			"resist": [
-				{
-					"resist": []
-				},
-				{
-					"resist": [],
-					"note": "from non magical source",
-					"cond": true
-				}
-			],
-			"conditionImmune": [],
-			"trait": [
-				{
-					"name": "Nimble Escape",
-					"entries": [
-						"The bandit can take the Disengage or Hide action as a bonus action on each of its turns."
-					]
-				}
-			],
-			"traitTags": [
-				"Legendary Resistances"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Frightful Presence",
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"action": [
-				{
-					"name": "Scimitar",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
-					]
-				},
-				{
-					"name": "Light Crossbow",
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) damage."
-					]
-				}
-			],
-			"attachedItems": [
-				"light crossbow|phb",
-				"scimitar|phb"
-			]
-		},
-		{
-			"name": "Catoblepas",
-			"size": [
-				"L"
-			],
-			"type": "monstrosity",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "16d10 + 64",
-				"average": 152
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 19,
-			"int": 3,
-			"wis": 13,
-			"cha": 10,
-			"passive": 14,
-			"cr": "7",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"save": {
-				"wis": "+4"
-			},
-			"skill": {
-				"perception": "+4"
-			},
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The catoblepas makes two attacks: one with its hooves, and one with its horns."
-					]
-				},
-				{
-					"name": "Hooves",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Horns",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage."
-					]
-				},
-				{
-					"name": "The Abyss Stares Back {@recharge 5}",
-					"entries": [
-						"The catoblepas stares into the soul of one creature it can see within 60 feet of it. The target must make a {@dc 15} Constitution saving throw, taking 54 ({@damage 12d8}) necrotic damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"damageTags": [
-				"B",
-				"N",
-				"P"
-			],
-			"savingThrowForced": [
-				"constitution"
-			]
-		},
-		{
-			"name": "Thornlock Druid",
-			"size": [
-				"M"
-			],
-			"type": "fey",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"permanent barkskin"
-					]
-				}
-			],
-			"hp": {
-				"formula": "22d8 + 44",
-				"average": 143
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 14,
-			"con": 15,
-			"int": 12,
-			"wis": 20,
-			"cha": 11,
-			"passive": 19,
-			"cr": "11",
-			"senses": [
-				"tremorsense 60 ft.",
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"T",
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Druidic",
-				"Sylvan"
-			],
-			"languageTags": [
-				"C",
-				"DU",
-				"S"
-			],
-			"save": {
-				"int": "+5",
-				"wis": "+9"
-			},
-			"skill": {
-				"medicine": "+9",
-				"nature": "+5",
-				"perception": "+9"
-			},
-			"resist": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion"
-			],
-			"trait": [
-				{
-					"name": "Rejuvenation",
-					"entries": [
-						"The thornlock druid gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again."
-					]
-				}
-			],
-			"traitTags": [
-				"Rejuvenation"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The druid makes two attacks and casts a spell"
-					]
-				},
-				{
-					"name": "Slam (Shillelagh)",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage plus 9 ({@damage 2d8}) necrotic damage plus 9 ({@damage 2d8}) poison damage."
-					]
-				},
-				{
-					"name": "Change Shape (2/Day)",
-					"entries": [
-						"The druid magically polymorphs into a beast or elemental with a challenge raiting of 8 or less, and can remain in this form for up to 9 hours. The druid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The druid reverts to its true form if it dies or falls {@condition unconscious}. The druid can revert to its true form using a bonus action on its turn.",
-						"While in a new form, the druid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Desterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal and somatic components in its new form.",
-						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack",
-				"Shapechanger"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks)"
-					],
-					"will": [
-						"{@spell druidcraft}",
-						"{@spell entangle}",
-						"{@spell produce flame}",
-						"{@spell shillelagh}"
-					],
-					"daily": {
-						"1": [
-							"{@spell cloudkill}",
-							"{@spell disintegrate}",
-							"{@spell finger of death}",
-							"{@spell storm of vengeance}",
-							"{@spell wall of thorns}"
-						],
-						"2": [
-							"{@spell blight}",
-							"{@spell faerie fire}",
-							"{@spell fire storm}",
-							"{@spell spike growth}"
-						]
-					},
-					"ability": "wis",
-					"type": "spellcasting"
-				}
-			],
-			"spellcastingTags": [
-				"CD"
-			],
-			"damageTags": [
-				"B",
-				"I",
-				"N"
-			],
-			"damageTagsSpell": [
-				"A",
-				"B",
-				"C",
-				"F",
-				"I",
-				"L",
-				"N",
-				"O",
-				"P",
-				"S",
-				"T"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"dexterity",
-				"strength"
-			]
-		},
-		{
-			"name": "Rurik Blackthorn",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"special": ""
-				}
-			],
-			"hp": {
-				"formula": "4d8 + 12",
-				"average": 30
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 16,
-			"int": 12,
-			"wis": 12,
-			"cha": 14,
-			"passive": 11,
-			"cr": "2",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Thieves' cant"
-			],
-			"languageTags": [
-				"C",
-				"TC"
-			],
-			"save": {
-				"con": "+5",
-				"cha": "+4"
-			},
-			"skill": {
-				"athletics": "+5",
-				"intimidation": "+4"
-			},
-			"trait": [
-				{
-					"name": "Cunning Action",
-					"entries": [
-						"Rurik can take a bonus action to Dash, Disengage, or Hide."
-					]
-				},
-				{
-					"name": "Leader's Presence",
-					"entries": [
-						"Friendly bandits within 30 feet of Rurik gain advantage on saving throws against being {@condition frightened}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Rurik makes two melee attacks with his greatsword."
-					]
-				},
-				{
-					"name": "Greatsword",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"MLW"
-			],
-			"attachedItems": [
-				"greatsword|phb"
-			],
-			"actionTags": [
-				"Multiattack",
-				"Parry"
-			],
-			"reaction": [
-				{
-					"name": "Parry",
-					"entries": [
-						"Rurik can use his reaction to add 2 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mara Shadowswift",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"Leather Armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "3d8 + 6",
-				"average": 19
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 16,
-			"con": 14,
-			"int": 12,
-			"wis": 11,
-			"cha": 14,
-			"passive": 10,
-			"cr": "1",
-			"languages": [
-				"Common",
-				"Thieves' cant"
-			],
-			"languageTags": [
-				"C",
-				"TC"
-			],
-			"senses": [
-				"tremorsense 60 ft."
-			],
-			"senseTags": [
-				"T"
-			],
-			"save": {
-				"dex": "+5",
-				"int": "+3"
-			},
-			"skill": {
-				"acrobatics": "+5",
-				"sleight of hand": "+5",
-				"stealth": "+5"
-			},
-			"action": [
-				{
-					"name": "Twinned Daggers",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW"
-			],
-			"trait": [
-				{
-					"name": "Sneak Attack",
-					"entries": [
-						"Add {@dice 1d6} when Mara has advantage or the target is engaged with another player"
-					]
-				}
-			]
-		},
-		{
-			"name": "Grizzled Bartok",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"note": "Dwarf"
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"Chainmail"
-					]
-				}
-			],
-			"hp": {
-				"formula": "3d10 + 6",
-				"average": 22
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 12,
-			"con": 14,
-			"int": 10,
-			"wis": 12,
-			"cha": 10,
-			"passive": 11,
-			"cr": "1",
-			"languages": [
-				"Common",
-				"Dwarvish"
-			],
-			"languageTags": [
-				"C",
-				"D"
-			],
-			"save": {
-				"str": "+5",
-				"con": "+4"
-			},
-			"skill": {
-				"athletics": "+5",
-				"insight": "+3",
-				"survival": "+3"
-			},
-			"trait": [
-				{
-					"name": "Second Wind",
-					"entries": [
-						"Once per short rest, regain hit points equal to {@dice 1d10 + 3}."
-					]
-				},
-				{
-					"name": "Fighting Style (Great Weapon Fighting)",
-					"entries": [
-						"When rolling damage for a melee weapon attack that you make with a two-handed weapon, you can reroll a 1 or 2 on damage dice."
-					]
-				},
-				{
-					"name": "Action Surge",
-					"entries": [
-						"Once per short rest, take an additional action on your turn."
-					]
-				},
-				{
-					"name": "Dwarven Resilience",
-					"entries": [
-						"Advantage on saving throws against poison, resistance against poison damage."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Greataxe",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"MLW"
-			],
-			"attachedItems": [
-				"greataxe|phb"
-			],
-			"fluff": {
-				"entries": [
-					"Equipment",
-					"- **Weapon:** Greataxe",
-					"- **Armor:** Chainmail",
-					"- **Other:** Explorer's pack, Smith's tools, Brewer's supplies, 10 gold pieces"
-				]
-			}
-		},
-		{
-			"name": "Larkin",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"note": "Elf"
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"ac": [
-				15
-			],
-			"hp": {
-				"formula": "4d8 + 8",
-				"average": 26
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 16,
-			"con": 14,
-			"int": 12,
-			"wis": 12,
-			"cha": 14,
-			"passive": 11,
-			"cr": "2",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Elvish"
-			],
-			"languageTags": [
-				"C",
-				"E"
-			],
-			"save": {
-				"dex": "+5",
-				"int": "+3"
-			},
-			"skill": {
-				"acrobatics": "+5",
-				"stealth": "+5"
-			},
-			"trait": [
-				{
-					"name": "Fey Ancestry",
-					"entries": [
-						"The larkin has advantage on saving throws against being {@condition charmed}, and magic can't put the larkin to sleep."
-					]
-				},
-				{
-					"name": "Nimble Movement",
-					"entries": [
-						"Can move through the space of any creature that is of a size larger than yours."
-					]
-				}
-			],
-			"traitTags": [
-				"Fey Ancestry"
-			],
-			"action": [
-				{
-					"name": "Rapier",
-					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
-					]
-				},
-				{
-					"name": "Shortbow",
-					"entries": [
-						"{@atk rw} {@hit +5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"rapier|phb",
-				"shortbow|phb"
-			],
-			"damageTags": [
-				"P"
-			]
-		},
-		{
-			"name": "Seraphina Embereye",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"note": "Elf"
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"ac": [
-				15
-			],
-			"hp": {
-				"formula": "3d8 + 9",
-				"average": 22
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 18,
-			"con": 16,
-			"int": 12,
-			"wis": 14,
-			"cha": 16,
-			"passive": 14,
-			"cr": "2",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Elvish"
-			],
-			"languageTags": [
-				"C",
-				"E"
-			],
-			"save": {
-				"dex": "+6",
-				"int": "+3"
-			},
-			"skill": {
-				"perception": "+4",
-				"sleight of hand": "+6",
-				"stealth": "+6"
-			},
-			"conditionImmune": [
-				"unconscious"
-			],
-			"trait": [
-				{
-					"name": "Fey Ancestry",
-					"entries": [
-						"The seraphina embereye has advantage on saving throws against being {@condition charmed}, and magic can't put the seraphina embereye to sleep."
-					]
-				},
-				{
-					"name": "Keen Senses",
-					"entries": [
-						"The seraphina embereye has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
-					]
-				}
-			],
-			"traitTags": [
-				"Fey Ancestry",
-				"Keen Senses"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Seraphina makestwo attacks"
-					]
-				},
-				{
-					"name": "Longsword",
-					"entries": [
-						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) slashing damage."
-					]
-				},
-				{
-					"name": "Shortbow",
-					"entries": [
-						"{@atk rw} {@hit +6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"longsword|phb",
-				"shortbow|phb"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			]
-		},
-		{
-			"name": "Polar Bear",
-			"size": [
-				"L"
-			],
-			"type": "beast",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d10 + 18",
-				"average": 51
-			},
-			"speed": {
-				"walk": 40,
-				"swim": 30
-			},
-			"str": 20,
-			"dex": 10,
-			"con": 16,
-			"int": 6,
-			"wis": 14,
-			"cha": 6,
-			"passive": 14,
-			"cr": "3",
-			"save": {
-				"str": "+7",
-				"con": "+5"
-			},
-			"skill": {
-				"athletics": "+7",
-				"intimidation": "+0",
-				"perception": "+4",
-				"survival": "+4"
-			},
-			"trait": [
-				{
-					"name": "Keen Smell",
-					"entries": [
-						"The polar bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
-					]
-				},
-				{
-					"name": "Surprise Attack (Bugbear)",
-					"entries": [
-						"If the polar bear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@dice 2d6}) damage from the attack."
-					]
-				}
-			],
-			"traitTags": [
-				"Keen Senses"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The Polar Bear makes two attacks: one with its bite and one with its claws."
-					]
-				},
-				{
-					"name": "Furious Claws",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
-					]
-				},
-				{
-					"name": "Frost Bite",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 5 ({@damage 1d10}) cold damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW"
-			],
-			"damageTags": [
-				"C",
-				"P",
-				"S"
-			]
-		},
-		{
-			"name": "Varek Ironfist",
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item breastplate|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8 + 18",
-				"average": 45
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 16,
-			"int": 12,
-			"wis": 14,
-			"cha": 14,
-			"passive": 14,
-			"cr": "2",
-			"languages": [
-				"Common",
-				"Dwarvish"
-			],
-			"languageTags": [
-				"C",
-				"D"
-			],
-			"skill": {
-				"athletics": "+5",
-				"investigation": "+3",
-				"perception": "+4",
-				"survival": "+4"
-			},
-			"trait": [
-				{
-					"name": "Leadership (Recharges after a Short or Long Rest)",
-					"entries": [
-						"For 1 minute, Varek can utter a special command or warning whenever a non-hostile creature he can see within 30 feet makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Varek. A creature can benefit from only one Leadership die at a time. This effect ends if Varek is {@condition incapacitated}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Varek makes two melee attacks."
-					]
-				},
-				{
-					"name": "Longsword",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
-					]
-				},
-				{
-					"name": "Heavy Crossbow",
-					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"heavy crossbow|phb",
-				"longsword|phb"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			]
-		},
-		{
-			"name": "Warforged Beetle",
-			"size": [
-				"M"
-			],
-			"type": "construct",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "1d8 + 2",
-				"average": 6
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 14,
-			"dex": 14,
-			"con": 14,
-			"int": 5,
-			"wis": 10,
-			"cha": 3,
-			"passive": 10,
-			"cr": "2",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Understands the languages of its creator but can't speak"
-			],
-			"languageTags": [
-				"CS"
-			],
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"poisoned"
-			],
-			"trait": [
-				{
-					"name": "Random Elemental Power",
-					"entries": [
-						"Each robotic beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
-						"Fire: The beetle deals an additional {@damage 1d6} fire damage with its attacks. It also has resistance to fire damage.",
-						"Ice: The beetle deals an additional {@damage 1d6} cold damage with its attacks. It also has resistance to cold damage.",
-						"Lightning: The beetle deals an additional {@damage 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
-						"Acid: The beetle deals an additional {@damage 1d6} acid damage with its attacks. It also has resistance to acid damage."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The beetle makes two bite attacks."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, plus 3 ({@damage 1d6}) elemental damage based on type damage."
-					]
-				},
-				{
-					"name": "Elemental Burst {@recharge 5}",
-					"entries": [
-						"The beetle releases a burst of elemental energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"AOE"
-			],
-			"damageTags": [
-				"P"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			]
-		},
-		{
-			"name": "Lyra Shadowstep, Mercenary Scout",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"elf"
-				]
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"{@item leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8 + 12",
-				"average": 39
-			},
-			"speed": {
-				"walk": 25
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 14,
-			"int": 12,
-			"wis": 14,
-			"cha": 10,
-			"passive": 14,
-			"cr": "2",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Common",
-				"Elvish"
-			],
-			"languageTags": [
-				"C",
-				"E"
-			],
-			"skill": {
-				"nature": "+3",
-				"perception": "+4",
-				"stealth": "+6",
-				"survival": "+4"
-			},
-			"trait": [
-				{
-					"name": "Keen Hearing and Sight",
-					"entries": [
-						"Lyra has advantage on Wisdom (Perception) checks that rely on hearing or sight."
-					]
-				}
-			],
-			"traitTags": [
-				"Keen Senses"
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Lyra makes two melee attacks or two ranged attacks."
-					]
-				},
-				{
-					"name": "shortsword",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
-					]
-				},
-				{
-					"name": "Longbow",
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"longbow|phb",
-				"shortsword|phb"
-			],
-			"damageTags": [
-				"P"
-			]
-		},
-		{
-			"name": "Brak the Tracker",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"half-orc"
-				]
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "5d10 + 15",
-				"average": 42
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 16,
-			"int": 12,
-			"wis": 14,
-			"cha": 11,
-			"passive": 14,
-			"cr": "2",
-			"languages": [
-				"Common",
-				"Orc"
-			],
-			"languageTags": [
-				"C",
-				"O"
-			],
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"skill": {
-				"perception": "+4",
-				"stealth": "+4",
-				"survival": "+4"
-			},
-			"trait": [
-				{
-					"name": "Favored Enemey",
-					"entries": [
-						"Brak has advantage on Wisdom (Survival) checks to track his favored enemies, as well as on Intelligence checks to recall information about them."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Brak makes two melee attacks or two ranged attacks."
-					]
-				},
-				{
-					"name": "Battleaxe",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
-					]
-				},
-				{
-					"name": "Hand Crossbow",
-					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"battleaxe|phb",
-				"hand crossbow|phb"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			]
-		},
-		{
-			"name": "Kael the Silent",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item studded leather armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8 + 12",
-				"average": 39
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 14,
-			"int": 14,
-			"wis": 13,
-			"cha": 12,
-			"passive": 13,
-			"cr": "2",
-			"languages": [
-				"Common",
-				"Thieves' cant"
-			],
-			"languageTags": [
-				"C",
-				"TC"
-			],
-			"skill": {
-				"acrobatics": "+6",
-				"deception": "+3",
-				"perception": "+3",
-				"sleight of hand": "+6",
-				"stealth": "+6"
-			},
-			"trait": [
-				{
-					"name": "Assassinate",
-					"entries": [
-						"During his first turn, Kael has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Kael scores against a surprised creature is a critical hit."
-					]
-				},
-				{
-					"name": "Sneak Attack (1/Turn).",
-					"entries": [
-						"Kael deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Kael that isn’t {@condition incapacitated} and Kael doesn’t have disadvantage on the attack roll."
-					]
-				}
-			],
-			"conditionInflict": [
-				"incapacitated"
-			],
-			"action": [
-				{
-					"name": "shortsword",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
-					]
-				},
-				{
-					"name": "Light Crossbow",
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW"
-			],
-			"attachedItems": [
-				"light crossbow|phb",
-				"shortsword|phb"
-			],
-			"damageTags": [
-				"P"
-			]
-		},
-		{
-			"name": "Ice Elemental",
-			"size": [
-				"L"
-			],
-			"type": "elemental",
-			"source": "ChaosIncHomebrew",
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				15
-			],
-			"hp": {
-				"formula": "10d10 + 30",
-				"average": 85
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 12,
-			"con": 16,
-			"int": 6,
-			"wis": 10,
-			"cha": 6,
-			"passive": 10,
-			"cr": "4",
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"languages": [
-				"Primordial"
-			],
-			"languageTags": [
-				"P"
-			],
-			"vulnerable": [
-				"fire"
-			],
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from Nonmagical Attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"cold"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"unconscious"
-			],
-			"trait": [
-				{
-					"name": "Freezing Aura",
-					"entries": [
-						"Any creature that starts its turn within 10 feet of the ice elemental takes 5 ({@damage 1d10}) cold damage and must succeed on a {@dc 13} Constitution saving throw or have its speed reduced by 10 feet until the start of the creature's next turn."
-					]
-				},
-				{
-					"name": "Ice Walk",
-					"entries": [
-						"The ice elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The ice elemental makes two slam attacks."
-					]
-				},
-				{
-					"name": "Slam",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, plus 5 ({@damage 1d10}) cold damage."
-					]
-				},
-				{
-					"name": "Ice Breath {@recharge 5}",
-					"entries": [
-						"The ice elemental exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 13} Constitution saving throw, taking 18 ({@damage 4d8}) cold damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Multiattack"
-			],
-			"miscTags": [
-				"MW",
-				"RCH",
-				"AOE"
-			],
-			"damageTags": [
-				"B",
-				"C"
-			],
-			"savingThrowForced": [
-				"constitution"
-			]
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "ChaosIncHomebrew",
+        "abbreviation": "CIH",
+        "full": "Chaos Inc Homebrew",
+        "url": "",
+        "authors": [
+          "Timothy Juckett"
+        ],
+        "convertedBy": []
+      }
+    ]
+  },
+  "monster": [
+    {
+      "name": "Nicodemus",
+      "source": "ChaosIncHomebrew",
+      "page": "0",
+      "size": "Large",
+      "type": {
+        "type": "Celestial",
+        "tags": [
+          "fallen"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "Judas Noose"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 99,
+        "formula": "18d10"
+      },
+      "speed": {
+        "fly": "50",
+        "swim": "50"
+      },
+      "str": 16,
+      "dex": 21,
+      "con": 16,
+      "int": 30,
+      "wis": 18,
+      "save": {
+        "dex": "+12",
+        "intelligence": "+17",
+        "wis": "+11",
+        "charisma": "+11"
+      },
+      "skill": {
+        "insight": "+11",
+        "persuasion": "+11",
+        "arcana": "+17",
+        "deception": "+11",
+        "history": "+17",
+        "intimidation": "+11",
+        "perception": "+11",
+        "religion": "+17"
+      },
+      "senses": [
+        "darkvision 120 ft.",
+        "truesight 30 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "Fire",
+        "Poison"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Frightened",
+        "Incapacitated",
+        "Poisoned"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Deep Speech",
+        "Infernal",
+        "Celestial",
+        "Draconic"
+      ],
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "entries": [
+            "Nicodemus's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). The empyrean can innately cast the following spells, requiring no material components:\n\nAt will: <i>greater restoration</i>, <i>pass without trace</i>, <i>water breathing</i>, <i>water walk</i>\n1/day: <i>commune</i>, <i>dispel evil and good</i>, <i>earthquake</i>, <i>fire storm</i>, <i>plane shift</i> (self only)"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "When Nicodemus fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Nicodemus has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "Nicodemus's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Devil Sight",
+          "entries": [
+            "Magical darkness doesn't impede Nicodemus's Darkvision"
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "Nicodemus regains 20 hit points at the start of its turn."
+          ]
+        },
+        {
+          "name": "Shadow Sight",
+          "entries": [
+            "Nicodemus can as an action look through the shadow of any creature on the same plane of existence as him. In order to do this Nicodemus does not need to have met the creature only be aware of them. While looking through a shadow Nicodemus is still aware of his surroundings but has disadvantage on perception checks. This ability only works if the target is casting a shadow. it does not function if the target is in complete blackness."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Nicodemus makes three melee attacks"
+          ]
+        },
+        {
+          "name": "Tendril of Shadow",
+          "entries": [
+            "<i>Melee Weapon Attack:</i> +10 to hit, reach 15 ft., one target. <i>Hit:</i> 21 (4d8 + 3) bludgeoning damage. On hit the target is grappled and restrained (Escape DC 16). While restrained the target takes 3d10 Necrotic damage at the start of each of Nicodemus turn. While grappled by the Tendril, spell casters magic is suppressed. In order to cast any spells while grappled a spellcaster must make a DC 15 Concentration Check. On a Success the spell goes off as normal, on a failure the spell fails and the spell slot is used."
+          ]
+        },
+        {
+          "name": "Saber",
+          "entries": [
+            "<i>Melee Weapon Attack:</i> +12 to hit, reach 5 ft., one target. <i>Hit:</i> 9 (1d8 + 5) slashing damage plus 18 (4d8) necrotic damage."
+          ]
+        },
+        {
+          "name": "Bolt",
+          "entries": [
+            "<i>Ranged Spell Attack:</i> +15 to hit, range 600 ft., one target. <i>Hit:</i> 24 (7d6) damage of one of the following types (empyrean’s choice): acid, cold, fire, force, lightning, radiant, or thunder."
+          ]
+        }
+      ],
+      "reaction": [],
+      "legendary": [
+        {
+          "name": "Attack",
+          "entries": [
+            "Nicodemus makes makes one saber or tendril attack."
+          ]
+        },
+        {
+          "name": "Darkness",
+          "entries": [
+            "Nicodemus extends his shadow out 30 feet, anyone caught in the shadow rolls a DC Wisdom save or be blind till the beginning of Nicodemus's next turn"
+          ]
+        }
+      ],
+      "legendaryGroup": null,
+      "environment": [],
+      "soundClip": null,
+      "traitTags": [
+        "Innate Spellcasting",
+        "Legendary Resistance (3/Day)",
+        "Magic Resistance",
+        "Magic Weapons",
+        "Devil Sight",
+        "Regeneration",
+        "Shadow Sight"
+      ],
+      "senseTags": null,
+      "actionTags": [
+        "Multiattack",
+        "Tendril of Shadow",
+        "Saber",
+        "Bolt"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null
+    },
+    {
+      "name": "Yonkic",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "Natural Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 84,
+        "formula": "14d6 + 42"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 13,
+      "con": 16,
+      "int": 10,
+      "wis": 12,
+      "cha": 20,
+      "passive": 10,
+      "cr": "12",
+      "senses": [
+        "darkvision 60 ft"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "save": {
+        "con": "+3",
+        "cha": "+5"
+      },
+      "skill": {
+        "insight": "+1",
+        "intimidation": "+5",
+        "persuasion": "+5",
+        "religion": "+0"
+      },
+      "action": [
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Hound of Ill Omen",
+          "entries": [
+            "As a bonus action, Yonkic can spend 3 sorcery points to magically summon a hound of ill omen to target one creature he can see within 120 feet of him. The hound uses the dire wolf's stats with the following changes.\n- Medium instead of large.\n- Counts as monstrosity instead of beast\n- Can move through objects and creatures as if difficult terrain.\n- The hound automatically knows its target location even if it is hidden.\nThe hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+          ]
+        }
+      ],
+      "immune": [],
+      "vulnerable": [],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Sorcery Points",
+          "entries": [
+            "Yonkic has 14 sorcery points to spend on metamagic or to regain spells"
+          ]
+        },
+        {
+          "name": "Twinned Spell",
+          "entries": [
+            "When Yonkic casts a spell that targets only one creature and doesn't have a range of self, he can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (Minimum 1)."
+          ]
+        },
+        {
+          "name": "Seek Spell",
+          "entries": [
+            "If Yonkic makes an attack roll for a spell and misses, he can spend 2 sorcery points to reroll the d20, he must use the new roll. He can use Seeking Spell even if he has already used a different Metamagic option during the casting of the spell."
+          ]
+        },
+        {
+          "name": "Empowered Spell",
+          "entries": [
+            "When Yonkic rolls damage for a spell, he can spend 1 sorcery point to reroll up to 5 of those dice. He must use the new rolls. He can use Empowered Spell even if he has already used a different Metamagic option during the casting of the spell."
+          ]
+        },
+        {
+          "name": "Strength of the Grave",
+          "entries": [
+            "When damage reduces Yonkic to 0 hit points, he can make a Charisma saving throw (DC 5 + the damage taken). On a success, he instead drop to 1 hit point. He can't use this feature if he is reduced to 0 hit points by radiant damage or by a critical hit. After the saving throw succeeds, he can't use this feature again until you finish a long rest."
+          ]
+        },
+        {
+          "name": "Shadow Walk",
+          "entries": [
+            "Yonkic can step from one shadow into another. When he is in dim light or darkness, as a bonus action, he can magically teleport up to 120 feet to an unoccupied space he can see that is also in dim light or darkness."
+          ]
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Yonkic is a 14th-level spellcaster. Yonkic's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Yonkic has the following sorcerer spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt}",
+                "{@spell message}",
+                "{@spell mending}",
+                "{@spell light}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell scorching ray}",
+                "{@spell hold person}",
+                "{@spell misty step}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell counterspell}",
+                "{@spell haste}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell banishment}",
+                "{@spell polymorph}",
+                "{@spell confusion}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell animate objects}",
+                "{@spell synaptic static|XGE}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell disintegrate}"
+              ]
+            },
+            "7": {
+              "slots": 1,
+              "spells": [
+                "{@spell crown of stars|XGE}"
+              ]
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "reaction": [],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Sorcery Points",
+        "Twinned Spell",
+        "Seek Spell",
+        "Empowered Spell",
+        "Strength of the Grave",
+        "Shadow Walk",
+        "Spellcasting"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": true,
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nesrith",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "Natural Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 60,
+        "formula": "12d6 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 13,
+      "con": 15,
+      "int": 20,
+      "wis": 12,
+      "cha": 9,
+      "passive": 10,
+      "cr": "12",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "save": {
+        "int": "+9",
+        "wis": "+5"
+      },
+      "skill": {
+        "arcana": "+9",
+        "athletics": "+5",
+        "intimidation": "+3",
+        "history": "+9"
+      },
+      "action": [
+        {
+          "name": "Momentary Stasis (5/Day)",
+          "entries": [
+            "Nesrith can magically force a large or smaller creature she can see within 60 feet of her to make a Constitution saving throw against her DC 18. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of her next turn or until the creature takes any damage. While encased in this way, the creature is incapacitated and has a speed of 0."
+          ]
+        }
+      ],
+      "immune": [],
+      "vulnerable": [],
+      "resist": [
+        "lightning"
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Temporal Awareness",
+          "entries": [
+            "Nesrith can add her Intelligence modifier to her initiative rolls."
+          ]
+        },
+        {
+          "name": "Arcane Abeyance (1/Day)",
+          "entries": [
+            "When Nesrith casts a spell using a spell slot of 4th level or lower, she can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.\n\nA creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses her spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Chronal Shift (2/Day)",
+          "entries": [
+            "Nesrith can magically exert limited control over the flow of time around a creature. As a reaction, after Nesrith or a creature she can see within 30 feet of her makes an attack roll, an ability check, or a saving throw, she can force the creature to reroll. She makes this decision after she sees whether the roll succeeds or fails. The target must use the result of the second roll."
+          ]
+        }
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Nesrith is a 12th-level spellcaster. Nesrith's spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Nesrith has the following sorcerer spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt}",
+                "{@spell mage hand}",
+                "{@spell true strike}",
+                "{@spell minor illusion}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell catapult}",
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}",
+                "{@spell charm person}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell aganazzar's scorcher|XGE}",
+                "{@spell hold person}",
+                "{@spell invisibility}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell hypnotic pattern}",
+                "{@spell fireball}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell wall of fire}",
+                "{@spell mordenkainen's faithful hound}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell steel wind strike|XGE}",
+                "{@spell far step|XGE}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell disintegrate}"
+              ]
+            }
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Temporal Awareness",
+        "Arcane Abeyance (1/Day)",
+        "Spellcasting"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": true,
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xyriel",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "Plate"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 96,
+        "formula": "12d10 + 36"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 16,
+      "int": 14,
+      "wis": 10,
+      "cha": 9,
+      "passive": 10,
+      "cr": "12",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "save": {
+        "str": "+9",
+        "con": "+7"
+      },
+      "skill": {
+        "athletics": "+9",
+        "intimidation": "+3",
+        "medicine": "+4",
+        "religion": "+6"
+      },
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Xyriel can make 4 attacks"
+          ]
+        },
+        {
+          "name": "Flame Tongue Longsword",
+          "entries": [
+            "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 0}) piercing damage.\n\nXyriel can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until Xyriel uses a bonus action to speak the command word again or until he drops or sheathes the sword."
+          ]
+        },
+        {
+          "name": "Psionic Strike",
+          "entries": [
+            "Xyriel can propel his weapons with psionic force. Once on each of his turns, immediately after he hits a target within 30 feet of him with an attack and deal damage to it with a weapon, he can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus 2."
+          ]
+        },
+        {
+          "name": "Telekinetic Movement (1/Day)",
+          "entries": [
+            "Xyriel can move an object or a creature with his mind. As an action, he can target one loose object that is Large or smaller or one willing creature, other than himself. If he can see the target and it is within 30 feet of him, he can move it up to 30 feet to an unoccupied space he can see. Alternatively, if it is a Tiny object, he can move it to or from his hand. Either way, he can move the target horizontally, vertically, or both. Xyriel can expend a Psionic Energy die to take this ability again again."
+          ]
+        }
+      ],
+      "immune": [
+        "cold"
+      ],
+      "vulnerable": [],
+      "resist": [
+        "fire",
+        "psychic"
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Last Stand Armor",
+          "entries": [
+            "Xyriel has a +1 bonus to AC while wearing this armor, which shimmers softly. If Xyriel dies while wearing the armor, it is destroyed, and each celestial, fey, and fiend within 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there."
+          ]
+        },
+        {
+          "name": "Shield of Uven Rune",
+          "entries": [
+            "Effects already imbedded in sheet"
+          ]
+        },
+        {
+          "name": "Great Weapon Fighting",
+          "entries": [
+            "When Xyriel rolls a 1 or 2 on a damage die for an attack he makes with a melee weapon that he is wielding with two hands, he can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for him to gain this benefit."
+          ]
+        },
+        {
+          "name": "Telekinetic Thrust",
+          "entries": [
+            "When Xyriel deals damage to a target with his Psionic Strike, he can force the target to make a Strength saving throw against a DC 15. If the save fails, he can knock the target prone or move it up to 10 feet in any direction horizontally."
+          ]
+        },
+        {
+          "name": "Psychic Dice",
+          "entries": [
+            "Xyriel harbors a wellspring of psionic energy within himself. This energy is represented by 10 psionic energy dice, each is a d10. Certain abilities use these dice and they are replenished at dawn."
+          ]
+        },
+        {
+          "name": "Shield - Bane (1/Day)",
+          "entries": [
+            "Xyriel can cast the bane spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute."
+          ]
+        },
+        {
+          "name": "Second Wind (1/Day)",
+          "entries": [
+            "Xyriel has a limited well of stamina that he can draw on to protect himself from harm. On his turn, he can use a bonus action to regain hit points equal to 1d10 + your fighter level."
+          ]
+        },
+        {
+          "name": "Action Surge (1/Day)",
+          "entries": [
+            "On Xyriel's turn, he can take one additional action."
+          ]
+        },
+        {
+          "name": "Indomitable (2/Day)",
+          "entries": [
+            "Xyriel can reroll a saving throw that he fails. If he does so, he must use the new roll."
+          ]
+        },
+        {
+          "name": "Psi-Powered Leap (1/Day)",
+          "entries": [
+            "As a bonus action, Xyriel can propel his body with his mind. He gains a flying speed equal to twice his walking speed until the end of the current turn. He can expend a Psionic Energy die to take it again."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shield - Deadly Rebuke",
+          "entries": [
+            "Immediately after a creature hits Xyriel with a melee attack, he can use his reaction to deal 3d6 necrotic damage to that creature."
+          ]
+        },
+        {
+          "name": "Protective Field",
+          "entries": [
+            "When Xyriel or another creature he can see within 30 feet of him takes damage, he can use his reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus 2, as you create a momentary shield of telekinetic force."
+          ]
+        }
+      ],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Last Stand Armor",
+        "Shield of Uven Rune",
+        "Great Weapon Fighting",
+        "Telekinetic Thrust",
+        "Psychic Dice",
+        "Shield - Bane (1/Day)",
+        "Second Wind (1/Day)",
+        "Action Surge (1/Day)",
+        "Indomitable (2/Day)",
+        "Psi-Powered Leap (1/Day)"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": true,
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Urograx",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "None"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 120,
+        "formula": "12d12 + 48"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 15,
+      "con": 18,
+      "int": 10,
+      "wis": 11,
+      "cha": 8,
+      "passive": 10,
+      "cr": "12",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "save": {
+        "str": "+11",
+        "con": "+10"
+      },
+      "skill": {
+        "athletics": "+11",
+        "intimidation": "+5"
+      },
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Urograx can make two attacks, 3 with rage."
+          ]
+        },
+        {
+          "name": "Sword of Wounding",
+          "entries": [
+            "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage.\n\nOnce per turn, when Urograx hits a creature with an attack using this magic weapon, he can wound the target. At the start of each of the wounded creature's turns, it takes ({@damage 1d4}) necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success."
+          ]
+        },
+        {
+          "name": "Animated Shield",
+          "entries": [
+            "While holding this shield, Urograx can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in his space to protect him as if he were wielding it, leaving his hands free. The shield remains animated for 1 minute, until he uses a bonus action to end this effect, or until he is incapacitated or dies, at which point the shield falls to the ground or into his hand if he has one free."
+          ]
+        },
+        {
+          "name": "Acid Breath (Recharge 5-6)",
+          "entries": [
+            "Urograx exhales acid in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 21 ({@damage 6d6}) acid damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "immune": [],
+      "vulnerable": [],
+      "resist": [
+        "acid"
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Rage",
+          "entries": [
+            "Urograx can rage 5 times per day. While raging, Urograx gains the following benefits:\n\n- Urograx has advantage on Strength checks and Strength saving throws. \n- When Urograx makes a melee weapon attack using Strength, Urograx gains a +3 bonus to the damage roll.\n- Urograx has resistance to bludgeoning, piercing, and slashing damage."
+          ]
+        },
+        {
+          "name": "Danger Sense",
+          "entries": [
+            "Urograx has an uncanny sense of when things nearby aren't as they should be, giving Urograx an edge when he dodges away from danger. Urograx has advantage on Dexterity saving throws against effects that he can see, such as traps and spells. To gain this benefit, he can't be blinded, deafened, or incapacitated."
+          ]
+        },
+        {
+          "name": "Reckless",
+          "entries": [
+            "At the start of its turn, Urograx can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Feral Instincts",
+          "entries": [
+            "Urograx has advantage on initiative rolls. Additionally, if Urograx is surprised at the beginning of combat and isn't incapacitated, he can act normally on his first turn, but only if he enters rage before doing anything else on that turn."
+          ]
+        },
+        {
+          "name": "Brutal Critical",
+          "entries": [
+            "Urograx can roll two additional weapon damage die when determining the extra damage for a critical hit with a melee attack."
+          ]
+        },
+        {
+          "name": "Relentless Rage",
+          "entries": [
+            "Rage can keep Urograx fighting despite grievous wounds. If he drops to 0 hit points while you're raging and doesn't die outright, he can make a DC 10 Constitution saving throw. If he succeeds, he drops to 1 hit point instead. Each time he uses this feature after the first, the DC increases by 5."
+          ]
+        },
+        {
+          "name": "Mindless Rage",
+          "entries": [
+            "Urograx can't be charmed or frightened while raging. If he is charmed or frightened when he enters rage, the effect is suspended for the duration of the rage"
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Instinctive Pounce",
+          "entries": [
+            "When a creature ends its turn within 15 feet of Urograx, he can use his reaction to move up to half his speed to a space closer to the creature. This movement doesn't provoke opportunity attacks."
+          ]
+        },
+        {
+          "name": "Retaliation",
+          "entries": [
+            "When Urograx takes damage from a creature that is within 5 feet of him, he can use his reaction to make a melee weapon attack against that creature."
+          ]
+        }
+      ],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Rage",
+        "Danger Sense",
+        "Reckless",
+        "Feral Instincts",
+        "Brutal Critical",
+        "Relentless Rage",
+        "Mindless Rage"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": true,
+      "fluff": {
+        "entries": [
+          "Half Dragon - Acid"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vorrash",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "Studded leather"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 85,
+        "formula": "17d8 + 17"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 20,
+      "con": 13,
+      "int": 12,
+      "wis": 8,
+      "cha": 16,
+      "passive": 10,
+      "cr": "14",
+      "senses": [],
+      "senseTags": [],
+      "languages": [
+        "Common"
+      ],
+      "save": {
+        "dex": "+10",
+        "int": "+6",
+        "wis": "+4"
+      },
+      "skill": {
+        "acrobatics": "+10",
+        "deception": "+13",
+        "investigation": "+11",
+        "persuasion": "+8",
+        "sleight of hand": "+15",
+        "stealth": "+15"
+      },
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "If Vorrash attacks with the Psychic Blade he can make an additional attack as a bonus action but the damage is 1d4 instead of 1d6."
+          ]
+        },
+        {
+          "name": "Psychic Blade",
+          "entries": [
+            "{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 60/60 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage in melee, or 88 ({@damage 1d6 + 5})  piercing damage at range."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit 10} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+          ]
+        },
+        {
+          "name": "Rend Mind",
+          "entries": [
+            "Vorrash can sweep his Psychic Blades directly through a creature's mind. When he uses his Psychic Blades to deal Sneak Attack damage to a creature, he can force that target to make a Wisdom saving throw (18). If the save fails, the target is stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Vorrash can expend three Psionic Energy dice to use this ability again."
+          ]
+        },
+        {
+          "name": "Psychic Teleportation",
+          "entries": [
+            "As a bonus action, Vorrash can manifest one of his Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space he can see, up to a number of feet away equal to 10 times the number rolled. He then teleports to that space, and the blade vanishes."
+          ]
+        },
+        {
+          "name": "Psychic Veil",
+          "entries": [
+            "Vorrash can weave a veil of psychic static to mask himself. As an action, he can magically become invisible, along with anything he is wearing or carrying, for 1 hour or until he dismisses this effect (no action required). This invisibility ends early immediately after he deals damage to a creature or he forces a creature to make a saving throw.\nHe can expend a Psionic Energy die to use this feature again."
+          ]
+        }
+      ],
+      "immune": [],
+      "vulnerable": [],
+      "resist": [
+        "cold"
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Sneak Attack",
+          "entries": [
+            "Once per turn, Vorrash deals an extra 7d6 damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Vorrash that isn't incapacitated and Vorrash doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Psychic Dice",
+          "entries": [
+            "Vorrash harbors a wellspring of psionic energy within himself. This energy is represented by Psionic Energy dice, he can use 10 of these a day and each are a d10."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "Vorrash can take a bonus action on each of his turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries": [
+            "If Vorrash is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Vorrash instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Blindsense",
+          "entries": [
+            "Vorrash is aware of the location of any hidden or invisible creature within 10 feet of him."
+          ]
+        },
+        {
+          "name": "Homing Strikes",
+          "entries": [
+            "If Vorrash makes an attack roll with his Psychic Blades and misses the target, he can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, he expends the Psionic Energy die."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "When an attacker that Vorrash can see hits him with an attack, he can use his reaction to halve the attack's damage against him."
+          ]
+        }
+      ],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Sneak Attack",
+        "Psychic Dice",
+        "Cunning Action",
+        "Evasion",
+        "Blindsense",
+        "Homing Strikes"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": true,
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mutated Otyugh",
+      "size": [
+        "L"
+      ],
+      "type": "aberration",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": []
+        }
+      ],
+      "hp": {
+        "average": 160,
+        "formula": "16d10 + 80"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 11,
+      "con": 20,
+      "int": 6,
+      "wis": 14,
+      "cha": 6,
+      "passive": 10,
+      "cr": "10",
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Otyugh"
+      ],
+      "save": {
+        "con": "+10",
+        "str": "+10",
+        "dex": "+5"
+      },
+      "skill": {},
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The otyugh makes four attacks: one with its bite or swallow and three with its tentacles."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
+          ]
+        },
+        {
+          "name": "Swallow",
+          "entries": [
+            "The otyugh makes one bite Attack against a Large or smaller target it is Grappling. If the Attack hits, the target is swallowed, and the grapple ends. The swallowed target is Blinded and Restrained, it has total cover against Attacks and other Effects outside the otyugh, and it takes 54 ({@damage 12d8}) acid damage at the start of each of the mutated otyugh's turns. The otyugh can have only one target swallowed at a time.\nIf the otyugh dies, a swallowed creature is no longer Restrained by it and can Escape from the corpse using 5 feet of Movement, exiting prone."
+          ]
+        },
+        {
+          "name": "Tentacle",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 50 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 9 ({@damage 2d8}) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has three tentacles, each of which can grapple one target."
+          ]
+        },
+        {
+          "name": "Tentacle Slam",
+          "entries": [
+            "The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 26 ({@damage 6d6 + 5}) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned."
+          ]
+        },
+        {
+          "name": "Spew Acid (5-6)",
+          "entries": [
+            "The otyugh spews liquid acid in a 30-foot cone. Each creature in that cone must make a DC 21 Dexterity saving throw, taking 54 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "immune": [
+        "poison",
+        "acid"
+      ],
+      "vulnerable": [],
+      "resist": [
+        "bludgeoning, piercing, and slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Limited Telepathy",
+          "entries": [
+            "The otyugh can magically transmit simple messages and images to any creature within 120 ft. of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
+          ]
+        }
+      ],
+      "reaction": [],
+      "legendary": [],
+      "legendaryGroup": null,
+      "environment": [
+        ""
+      ],
+      "soundClip": null,
+      "traitTags": [
+        "Limited Telepathy"
+      ],
+      "damageTags": null,
+      "miscTags": null,
+      "conditionInflict": null,
+      "conditionInflictLegendary": null,
+      "group": "",
+      "isNamedCreature": false,
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Otyugh.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giant Sand Scorpion",
+      "size": [
+        "L"
+      ],
+      "type": "aberration",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "Natural Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 48",
+        "average": 102
+      },
+      "speed": {
+        "walk": 40,
+        "burrow": 30
+      },
+      "str": 15,
+      "dex": 18,
+      "con": 18,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "cr": "10",
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "save": {
+        "con": "+10",
+        "str": "+8",
+        "dex": "+10"
+      },
+      "skill": {
+        "acrobatics": "+10",
+        "perception": "+6"
+      },
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "frightened",
+        "poisoned"
+      ],
+      "resist": [
+        "fire"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The scorpion makes three attacks: two with its claws and one with its sting. If a creature is {@condition grappled} with its claw the scorpion can instead a pincer attack on that creature instead of a claw attack"
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). The scorpion has two claws, each of which can grapple only one target."
+          ]
+        },
+        {
+          "name": "Sting",
+          "entries": [
+            "{@atk rw} {@hit 10} to hit, range 150/300 ft., one target. {@h}6 ({@damage 1d10 + 5}) piercing damage, and the target must make a {@dc 18} Constitution saving throw, taking 22 ({@damage 4d10}) poison damage on a failed save, or half as much damage on a successful one. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} until the end of the scorpions next turn."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d10 + 2}) damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "paralyzed"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "P"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Sand King",
+      "size": [
+        "L"
+      ],
+      "type": "aberration",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d10 + 64",
+        "average": 152
+      },
+      "speed": {
+        "walk": 40,
+        "burrow": 30,
+        "climb": 30
+      },
+      "str": 22,
+      "dex": 14,
+      "con": 18,
+      "int": 12,
+      "wis": 16,
+      "cha": 18,
+      "passive": 19,
+      "cr": {
+        "cr": "17",
+        "lair": "18"
+      },
+      "senses": [
+        "tremorsense 60 ft.",
+        "truesight 120 ft."
+      ],
+      "senseTags": [
+        "T",
+        "U"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Infernal"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "I"
+      ],
+      "save": {
+        "str": "+12",
+        "cha": "+10"
+      },
+      "skill": {
+        "athletics": "+12",
+        "deception": "+10",
+        "intimidation": "+10",
+        "perception": "+9",
+        "survival": "+9"
+      },
+      "resist": [
+        {
+          "resist": [
+            "fire"
+          ]
+        },
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from non magical weapons",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "King's Glory",
+          "entries": [
+            "The sand king has advantage on attack rolls against a {@condition poisoned} creature"
+          ]
+        },
+        {
+          "name": "Monstrous Presence",
+          "entries": [
+            "Any hostile creature that starts its turn within 10 feet of the sand king must succeed a {@dc 18} wisdom saving throw or be {@condition frightened} of him until the start of the next turn"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the sand king fails a saving throw, it can choose to succeed instead."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "frightened",
+        "paralyzed",
+        "poisoned"
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The sand king makes two Ravenous Claw or Royal Spear attacks and one Deadly Sting attack."
+          ]
+        },
+        {
+          "name": "Ravenous Claw",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) slashing damage plus 13 ({@damage 2d12}) acid damage"
+          ]
+        },
+        {
+          "name": "Royal Spear",
+          "entries": [
+            "{@atk mw,rw} {@hit 12} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 13 ({@damage 2d12}) necrotic damage."
+          ]
+        },
+        {
+          "name": "Deadly Sting",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, range 150/300 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage plus 22 ({@damage 4d10}) poison damage, and the target must succeed on a {@dc 18} constitution saving throw or be {@condition poisoned} for 1 minute. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} while {@condition poisoned}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "MLW",
+        "THW"
+      ],
+      "bonus": [
+        {
+          "name": "For Glory (3/Day)",
+          "entries": [
+            "Each creature of the sand kings choice that is within 30 feet of it, can hear it, and not already affected by this ability, gains advantage on attack rolls until the start of the sand king's next turn."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "King's Reaction (1/Day)",
+          "entries": [
+            "When a creature within 30 feet of the sand king makes an attack roll, but before learning whether it hits or misses, the sand king can grant the creature +10 bonus to that roll."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Inspire",
+          "entries": [
+            "The sand king can inspire any ally he can see to immediately take an extra attack."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Lair Actions",
+                "entries": [
+                  "On initiative count 20 (losing initiative ties), the sand king takes a lair action to cause one of the following effects; the sand king can't use the same effect two rounds in a row:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "A large dust devil appears on a location and pulls any creature at a height of 50 ft toward the ground. Any creature in the dust devil must succeed on a {@dc 18} Dexterity saving throw or be pulling toward the ground and knocked {@condition prone}.",
+                      "A creature within 120 ft of the sand king that he can see will be encased by sand in a desert coffin. The creature must succeed on (@dc 18} Dexterity saving or be restrained, blinded, deafened, and silenced. Any creature caught in the desert coffin can use their action to succeed on a {@dc 18} strength saving throw to break free. Otherwise the sand naturally falls away after 1 minute.",
+                      "The sand king kicks sand 50 ft into the air in a 120 foot radius around him causing any creature caught in it to be blind. Any creature inside of it will be fully obscured for a round until the sand settle back down. In addition all creatures inside who cast spells must make a concentration check to maintain or cast spells while inhaling sand into their lungs."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "environment": [
+        "desert"
+      ],
+      "group": [
+        "Chromatic Dragon"
+      ],
+      "damageTags": [
+        "A",
+        "I",
+        "N",
+        "P",
+        "S"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Shadow Fang Bandit",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "Leather Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "2d8 + 2",
+        "average": 11
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 12,
+      "int": 14,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "cr": "1/8",
+      "dragonAge": "ancient",
+      "languages": [
+        "Common",
+        "Thieves' cant"
+      ],
+      "languageTags": [
+        "C",
+        "TC"
+      ],
+      "save": {
+        "dex": "+5",
+        "int": "+4"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "sleight of hand": "+7",
+        "deception": "+2",
+        "stealth": "+7"
+      },
+      "resist": [
+        {
+          "resist": []
+        },
+        {
+          "resist": [],
+          "note": "from non magical source",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [],
+      "trait": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The bandit can take the Disengage or Hide action as a bonus action on each of its turns."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Frightful Presence",
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "MLW",
+        "RW"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "action": [
+        {
+          "name": "Scimitar",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "light crossbow|phb",
+        "scimitar|phb"
+      ]
+    },
+    {
+      "name": "Catoblepas",
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d10 + 64",
+        "average": 152
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 19,
+      "int": 3,
+      "wis": 13,
+      "cha": 10,
+      "passive": 14,
+      "cr": "7",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "save": {
+        "wis": "+4"
+      },
+      "skill": {
+        "perception": "+4"
+      },
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The catoblepas makes two attacks: one with its hooves, and one with its horns."
+          ]
+        },
+        {
+          "name": "Hooves",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Horns",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "The Abyss Stares Back {@recharge 5}",
+          "entries": [
+            "The catoblepas stares into the soul of one creature it can see within 60 feet of it. The target must make a {@dc 15} Constitution saving throw, taking 54 ({@damage 12d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "damageTags": [
+        "B",
+        "N",
+        "P"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Thornlock Druid",
+      "size": [
+        "M"
+      ],
+      "type": "fey",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "permanent barkskin"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "22d8 + 44",
+        "average": 143
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 14,
+      "con": 15,
+      "int": 12,
+      "wis": 20,
+      "cha": 11,
+      "passive": 19,
+      "cr": "11",
+      "senses": [
+        "tremorsense 60 ft.",
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "T",
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Druidic",
+        "Sylvan"
+      ],
+      "languageTags": [
+        "C",
+        "DU",
+        "S"
+      ],
+      "save": {
+        "int": "+5",
+        "wis": "+9"
+      },
+      "skill": {
+        "medicine": "+9",
+        "nature": "+5",
+        "perception": "+9"
+      },
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Rejuvenation",
+          "entries": [
+            "The thornlock druid gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Rejuvenation"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The druid makes two attacks and casts a spell"
+          ]
+        },
+        {
+          "name": "Slam (Shillelagh)",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage plus 9 ({@damage 2d8}) necrotic damage plus 9 ({@damage 2d8}) poison damage."
+          ]
+        },
+        {
+          "name": "Change Shape (2/Day)",
+          "entries": [
+            "The druid magically polymorphs into a beast or elemental with a challenge raiting of 8 or less, and can remain in this form for up to 9 hours. The druid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The druid reverts to its true form if it dies or falls {@condition unconscious}. The druid can revert to its true form using a bonus action on its turn.",
+            "While in a new form, the druid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Desterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal and somatic components in its new form.",
+            "The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks)"
+          ],
+          "will": [
+            "{@spell druidcraft}",
+            "{@spell entangle}",
+            "{@spell produce flame}",
+            "{@spell shillelagh}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell cloudkill}",
+              "{@spell disintegrate}",
+              "{@spell finger of death}",
+              "{@spell storm of vengeance}",
+              "{@spell wall of thorns}"
+            ],
+            "2": [
+              "{@spell blight}",
+              "{@spell faerie fire}",
+              "{@spell fire storm}",
+              "{@spell spike growth}"
+            ]
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "CD"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "N"
+      ],
+      "damageTagsSpell": [
+        "A",
+        "B",
+        "C",
+        "F",
+        "I",
+        "L",
+        "N",
+        "O",
+        "P",
+        "S",
+        "T"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "strength"
+      ]
+    },
+    {
+      "name": "Rurik Blackthorn",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "special": ""
+        }
+      ],
+      "hp": {
+        "formula": "4d8 + 12",
+        "average": 30
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 12,
+      "wis": 12,
+      "cha": 14,
+      "passive": 11,
+      "cr": "2",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Thieves' cant"
+      ],
+      "languageTags": [
+        "C",
+        "TC"
+      ],
+      "save": {
+        "con": "+5",
+        "cha": "+4"
+      },
+      "skill": {
+        "athletics": "+5",
+        "intimidation": "+4"
+      },
+      "trait": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "Rurik can take a bonus action to Dash, Disengage, or Hide."
+          ]
+        },
+        {
+          "name": "Leader's Presence",
+          "entries": [
+            "Friendly bandits within 30 feet of Rurik gain advantage on saving throws against being {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Rurik makes two melee attacks with his greatsword."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "attachedItems": [
+        "greatsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "Rurik can use his reaction to add 2 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mara Shadowswift",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "Leather Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d8 + 6",
+        "average": 19
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 11,
+      "cha": 14,
+      "passive": 10,
+      "cr": "1",
+      "languages": [
+        "Common",
+        "Thieves' cant"
+      ],
+      "languageTags": [
+        "C",
+        "TC"
+      ],
+      "senses": [
+        "tremorsense 60 ft."
+      ],
+      "senseTags": [
+        "T"
+      ],
+      "save": {
+        "dex": "+5",
+        "int": "+3"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "sleight of hand": "+5",
+        "stealth": "+5"
+      },
+      "action": [
+        {
+          "name": "Twinned Daggers",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "trait": [
+        {
+          "name": "Sneak Attack",
+          "entries": [
+            "Add {@dice 1d6} when Mara has advantage or the target is engaged with another player"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grizzled Bartok",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "Dwarf"
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "Chainmail"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d10 + 6",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "passive": 11,
+      "cr": "1",
+      "languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "languageTags": [
+        "C",
+        "D"
+      ],
+      "save": {
+        "str": "+5",
+        "con": "+4"
+      },
+      "skill": {
+        "athletics": "+5",
+        "insight": "+3",
+        "survival": "+3"
+      },
+      "trait": [
+        {
+          "name": "Second Wind",
+          "entries": [
+            "Once per short rest, regain hit points equal to {@dice 1d10 + 3}."
+          ]
+        },
+        {
+          "name": "Fighting Style (Great Weapon Fighting)",
+          "entries": [
+            "When rolling damage for a melee weapon attack that you make with a two-handed weapon, you can reroll a 1 or 2 on damage dice."
+          ]
+        },
+        {
+          "name": "Action Surge",
+          "entries": [
+            "Once per short rest, take an additional action on your turn."
+          ]
+        },
+        {
+          "name": "Dwarven Resilience",
+          "entries": [
+            "Advantage on saving throws against poison, resistance against poison damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Greataxe",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "attachedItems": [
+        "greataxe|phb"
+      ],
+      "fluff": {
+        "entries": [
+          "Equipment",
+          "- **Weapon:** Greataxe",
+          "- **Armor:** Chainmail",
+          "- **Other:** Explorer's pack, Smith's tools, Brewer's supplies, 10 gold pieces"
+        ]
+      }
+    },
+    {
+      "name": "Larkin",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "Elf"
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "formula": "4d8 + 8",
+        "average": 26
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 12,
+      "cha": 14,
+      "passive": 11,
+      "cr": "2",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "save": {
+        "dex": "+5",
+        "int": "+3"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "stealth": "+5"
+      },
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The larkin has advantage on saving throws against being {@condition charmed}, and magic can't put the larkin to sleep."
+          ]
+        },
+        {
+          "name": "Nimble Movement",
+          "entries": [
+            "Can move through the space of any creature that is of a size larger than yours."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "action": [
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit +5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW",
+        "RW"
+      ],
+      "attachedItems": [
+        "rapier|phb",
+        "shortbow|phb"
+      ],
+      "damageTags": [
+        "P"
+      ]
+    },
+    {
+      "name": "Seraphina Embereye",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "note": "Elf"
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "formula": "3d8 + 9",
+        "average": 22
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 16,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "passive": 14,
+      "cr": "2",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "save": {
+        "dex": "+6",
+        "int": "+3"
+      },
+      "skill": {
+        "perception": "+4",
+        "sleight of hand": "+6",
+        "stealth": "+6"
+      },
+      "conditionImmune": [
+        "unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The seraphina embereye has advantage on saving throws against being {@condition charmed}, and magic can't put the seraphina embereye to sleep."
+          ]
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "The seraphina embereye has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry",
+        "Keen Senses"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Seraphina makestwo attacks"
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) slashing damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit +6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW",
+        "RW"
+      ],
+      "attachedItems": [
+        "longsword|phb",
+        "shortbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ]
+    },
+    {
+      "name": "Polar Bear",
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "6d10 + 18",
+        "average": 51
+      },
+      "speed": {
+        "walk": 40,
+        "swim": 30
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 16,
+      "int": 6,
+      "wis": 14,
+      "cha": 6,
+      "passive": 14,
+      "cr": "3",
+      "save": {
+        "str": "+7",
+        "con": "+5"
+      },
+      "skill": {
+        "athletics": "+7",
+        "intimidation": "+0",
+        "perception": "+4",
+        "survival": "+4"
+      },
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The polar bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          ]
+        },
+        {
+          "name": "Surprise Attack (Bugbear)",
+          "entries": [
+            "If the polar bear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@dice 2d6}) damage from the attack."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Polar Bear makes two attacks: one with its bite and one with its claws."
+          ]
+        },
+        {
+          "name": "Furious Claws",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Frost Bite",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 5 ({@damage 1d10}) cold damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "damageTags": [
+        "C",
+        "P",
+        "S"
+      ]
+    },
+    {
+      "name": "Varek Ironfist",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "dwarf"
+        ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item breastplate|phb}",
+            "shield"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 48",
+        "average": 102
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 18,
+      "int": 12,
+      "wis": 14,
+      "cha": 14,
+      "passive": 15,
+      "cr": "4",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "languageTags": [
+        "C",
+        "D"
+      ],
+      "trait": [
+        {
+          "name": "Dwarven Resilience",
+          "entries": [
+            "Varek has advantage on saving throws against poison, and he has resistance against poison damage."
+          ]
+        },
+        {
+          "name": "Leadership (Recharges after a Short or Long Rest)",
+          "entries": [
+            "For 1 minute, Varek can utter a special command or warning whenever a non-hostile creature he can see within 30 feet makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Varek. A creature can benefit from only one Leadership die at a time. This effect ends if Varek is incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Varek makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Warhammer",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) bludgeoning damage, or 13 ({@damage 1d10 + 7}) bludgeoning damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 6} to hit, range 100/400 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "skill": {
+        "athletics": "+8",
+        "intimidation": "+6",
+        "perception": "+6",
+        "survival": "+6"
+      },
+      "savingThrow": {
+        "str": "+8",
+        "con": "+8",
+        "wis": "+6"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "attachedItems": [
+        "warhammer|phb",
+        "heavy crossbow|phb"
+      ]
+    },
+    {
+      "name": "Warforged Beetle",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "1d8 + 2",
+        "average": 6
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 14,
+      "dex": 14,
+      "con": 14,
+      "int": 5,
+      "wis": 10,
+      "cha": 3,
+      "passive": 10,
+      "cr": "2",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Understands the languages of its creator but can't speak"
+      ],
+      "languageTags": [
+        "CS"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Random Elemental Power",
+          "entries": [
+            "Each robotic beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
+            "Fire: The beetle deals an additional {@damage 1d6} fire damage with its attacks. It also has resistance to fire damage.",
+            "Ice: The beetle deals an additional {@damage 1d6} cold damage with its attacks. It also has resistance to cold damage.",
+            "Lightning: The beetle deals an additional {@damage 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
+            "Acid: The beetle deals an additional {@damage 1d6} acid damage with its attacks. It also has resistance to acid damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The beetle makes two bite attacks."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, plus 3 ({@damage 1d6}) elemental damage based on type damage."
+          ]
+        },
+        {
+          "name": "Elemental Burst {@recharge 5}",
+          "entries": [
+            "The beetle releases a burst of elemental energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Lyra Shadowstep",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "elf"
+        ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 35
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 12,
+      "wis": 14,
+      "cha": 10,
+      "passive": 17,
+      "cr": "3",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "trait": [
+        {
+          "name": "Keen Hearing and Sight",
+          "entries": [
+            "Lyra has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Lyra makes two melee attacks or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+          ]
+        }
+      ],
+      "skill": {
+        "nature": "+4",
+        "perception": "+7",
+        "stealth": "+7",
+        "survival": "+7"
+      },
+      "savingThrow": {
+        "dex": "+7",
+        "wis": "+5"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "attachedItems": [
+        "longbow|phb",
+        "shortsword|phb"
+      ]
+    },
+    {
+      "name": "Brak the Tracker",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "half-orc"
+        ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d10 + 32",
+        "average": 76
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 18,
+      "int": 12,
+      "wis": 14,
+      "cha": 11,
+      "passive": 16,
+      "cr": "3",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Orc"
+      ],
+      "languageTags": [
+        "C",
+        "O"
+      ],
+      "trait": [
+        {
+          "name": "Favored Enemy",
+          "entries": [
+            "Brak has advantage on Wisdom (Survival) checks to track his favored enemies, as well as on Intelligence checks to recall information about them."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Brak makes two melee attacks or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Battleaxe",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 6}) slashing damage."
+          ]
+        },
+        {
+          "name": "Hand Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "skill": {
+        "perception": "+7",
+        "stealth": "+6",
+        "survival": "+7"
+      },
+      "savingThrow": {
+        "dex": "+6",
+        "wis": "+5"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "damageTags": [
+        "S",
+        "P"
+      ],
+      "attachedItems": [
+        "battleaxe|phb",
+        "hand crossbow|phb"
+      ]
+    },
+    {
+      "name": "Kael the Silent",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8 + 24",
+        "average": 60
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 14,
+      "wis": 13,
+      "cha": 12,
+      "passive": 14,
+      "cr": "3",
+      "senses": [],
+      "languages": [
+        "Common",
+        "Thieves' Cant"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "trait": [
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During his first turn, Kael has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Kael scores against a surprised creature is a critical hit."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Kael deals an extra 14 ({@damage 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Kael that isn’t incapacitated and Kael doesn’t have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Kael makes two melee attacks or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+          ]
+        }
+      ],
+      "skill": {
+        "acrobatics": "+7",
+        "deception": "+5",
+        "perception": "+4",
+        "sleight of hand": "+7",
+        "stealth": "+9"
+      },
+      "savingThrow": {
+        "dex": "+7",
+        "int": "+5",
+        "wis": "+4"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "attachedItems": [
+        "shortsword|phb",
+        "light crossbow|phb"
+      ]
+    },
+    {
+      "name": "Ice Elemental",
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "formula": "10d10 + 30",
+        "average": 85
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 6,
+      "wis": 10,
+      "cha": 6,
+      "passive": 10,
+      "cr": "4",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Primordial"
+      ],
+      "languageTags": [
+        "P"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from Nonmagical Attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Freezing Aura",
+          "entries": [
+            "Any creature that starts its turn within 10 feet of the ice elemental takes 5 ({@damage 1d10}) cold damage and must succeed on a {@dc 13} Constitution saving throw or have its speed reduced by 10 feet until the start of the creature's next turn."
+          ]
+        },
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The ice elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The ice elemental makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, plus 5 ({@damage 1d10}) cold damage."
+          ]
+        },
+        {
+          "name": "Ice Breath {@recharge 5}",
+          "entries": [
+            "The ice elemental exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a {@dc 13} Constitution saving throw, taking 18 ({@damage 4d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "AOE"
+      ],
+      "damageTags": [
+        "B",
+        "C"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    }
+  ]
 }
