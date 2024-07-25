@@ -2684,26 +2684,30 @@
       "size": [
         "M"
       ],
-      "type": "construct",
+      "type": {
+        "type": "construct",
+        "tags": []
+      },
       "source": "ChaosIncHomebrew",
       "alignment": [
         "U"
       ],
       "ac": [
         {
-          "ac": 16,
+          "ac": 15,
           "from": [
             "natural armor"
           ]
         }
       ],
       "hp": {
-        "formula": "1d8 + 2",
-        "average": 6
+        "formula": "6d8 + 12",
+        "average": 39
       },
       "speed": {
         "walk": 30,
-        "climb": 30
+        "climb": 30,
+        "burrow": 20
       },
       "str": 14,
       "dex": 14,
@@ -2714,22 +2718,26 @@
       "passive": 10,
       "cr": "2",
       "senses": [
-        "darkvision 60 ft."
+        "darkvision 60 ft.",
+        "tremorsense 60 ft."
       ],
       "senseTags": [
-        "D"
+        "D",
+        "T"
       ],
       "languages": [
-        "Understands the languages of its creator but can't speak"
+        "understands the languages of its creator but cannot speak"
       ],
-      "languageTags": [
-        "CS"
+      "damageResistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing from nonmagical attacks"
       ],
-      "immune": [
+      "damageImmunities": [
         "poison",
         "psychic"
       ],
-      "conditionImmune": [
+      "conditionImmunities": [
         "charmed",
         "exhaustion",
         "frightened",
@@ -2740,11 +2748,17 @@
         {
           "name": "Random Elemental Power",
           "entries": [
-            "Each robotic beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
-            "Fire: The beetle deals an additional {@damage 1d6} fire damage with its attacks. It also has resistance to fire damage.",
-            "Ice: The beetle deals an additional {@damage 1d6} cold damage with its attacks. It also has resistance to cold damage.",
-            "Lightning: The beetle deals an additional {@damage 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
-            "Acid: The beetle deals an additional {@damage 1d6} acid damage with its attacks. It also has resistance to acid damage."
+            "Each warforged beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
+            "1. Fire: The beetle deals an additional {@dice 1d6} fire damage with its attacks. It also has resistance to fire damage.",
+            "2. Ice: The beetle deals an additional {@dice 1d6} cold damage with its attacks. It also has resistance to cold damage.",
+            "3. Lightning: The beetle deals an additional {@dice 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
+            "4. Acid: The beetle deals an additional {@dice 1d6} acid damage with its attacks. It also has resistance to acid damage."
+          ]
+        },
+        {
+          "name": "Adaptive Armor",
+          "entries": [
+            "After taking damage of a specific type, the beetle gains resistance to that damage type until the end of its next turn."
           ]
         }
       ],
@@ -2752,19 +2766,31 @@
         {
           "name": "Multiattack",
           "entries": [
-            "The beetle makes two bite attacks."
+            "The beetle makes two attacks: one with its bite and one with its saw blade."
           ]
         },
         {
           "name": "Bite",
           "entries": [
-            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, plus 3 ({@damage 1d6}) elemental damage based on type damage."
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
           ]
         },
         {
-          "name": "Elemental Burst {@recharge 5}",
+          "name": "Saw Blade",
           "entries": [
-            "The beetle releases a burst of elemental energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
+          ]
+        },
+        {
+          "name": "Elemental Charge",
+          "entries": [
+            "When the beetle takes 15 or more damage in a single turn, it becomes charged with elemental energy. At the start of its next turn, it can release this energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "entries": [
+            "As an action, the beetle can burrow into the ground and move up to 20 feet. If it ends its movement within 5 feet of a creature, it can make a surprise attack with its saw blade."
           ]
         }
       ],
@@ -2776,7 +2802,141 @@
         "AOE"
       ],
       "damageTags": [
-        "P"
+        "P",
+        "S",
+        "F",
+        "C",
+        "L",
+        "A"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ]
+    },    
+    {
+      "name": "Advanced Warforged Beetle",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "construct",
+        "tags": []
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d10 + 30",
+        "average": 85
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30,
+        "burrow": 20
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 5,
+      "wis": 10,
+      "cha": 3,
+      "passive": 10,
+      "cr": "4",
+      "senses": [
+        "darkvision 60 ft.",
+        "tremorsense 60 ft."
+      ],
+      "senseTags": [
+        "D",
+        "T"
+      ],
+      "languages": [
+        "understands the languages of its creator but cannot speak"
+      ],
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Random Elemental Power",
+          "entries": [
+            "Each warforged beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
+            "1. Fire: The beetle deals an additional {@dice 1d6} fire damage with its attacks. It also has resistance to fire damage.",
+            "2. Ice: The beetle deals an additional {@dice 1d6} cold damage with its attacks. It also has resistance to cold damage.",
+            "3. Lightning: The beetle deals an additional {@dice 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
+            "4. Acid: The beetle deals an additional {@dice 1d6} acid damage with its attacks. It also has resistance to acid damage."
+          ]
+        },
+        {
+          "name": "Adaptive Armor",
+          "entries": [
+            "After taking damage of a specific type, the beetle gains resistance to that damage type until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The beetle makes two attacks: one with its bite and one with its saw blade."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 4}) piercing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
+          ]
+        },
+        {
+          "name": "Saw Blade",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
+          ]
+        },
+        {
+          "name": "Elemental Charge",
+          "entries": [
+            "When the beetle takes 20 or more damage in a single turn, it becomes charged with elemental energy. At the start of its next turn, it can release this energy in a 15-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 21 ({@damage 6d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+          ]
+        },
+        {
+          "name": "Burrow Ambush",
+          "entries": [
+            "As an action, the beetle can burrow into the ground and move up to 20 feet. If it ends its movement within 5 feet of a creature, it can make a surprise attack with its saw blade."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "damageTags": [
+        "P",
+        "S",
+        "F",
+        "C",
+        "L",
+        "A"
       ],
       "savingThrowForced": [
         "dexterity"
