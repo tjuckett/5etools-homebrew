@@ -3376,6 +3376,139 @@
       "savingThrowForced": [
         "constitution"
       ]
+    },
+    {
+      "name": "Stonecrusher",
+      "size": [
+          "L"
+      ],
+      "type": {
+          "type": "elemental",
+          "tags": []
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "N"
+      ],
+      "ac": [
+          {
+              "ac": 17,
+              "from": [
+                  "natural armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "12d10 + 60",
+          "average": 126
+      },
+      "speed": {
+          "walk": 30,
+          "burrow": 30
+      },
+      "str": 20,
+      "dex": 8,
+      "con": 20,
+      "int": 5,
+      "wis": 10,
+      "cha": 5,
+      "save": {
+          "str": "+9",
+          "con": "+9"
+      },
+      "resist": [
+          {
+              "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+              ],
+              "note": "from nonmagical attacks",
+              "cond": true
+          }
+      ],
+      "immune": [
+          "poison"
+      ],
+      "conditionImmune": [
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+      ],
+      "senses": [
+          "darkvision 60 ft.",
+          "tremorsense 60 ft."
+      ],
+      "passive": 10,
+      "languages": [
+          "Terran",
+          "understands Common but can't speak it"
+      ],
+      "cr": "6",
+      "trait": [
+          {
+              "name": "Earth Glide",
+              "entries": [
+                  "The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through."
+              ]
+          },
+          {
+              "name": "Siege Monster",
+              "entries": [
+                  "The elemental deals double damage to objects and structures."
+              ]
+          },
+          {
+              "name": "Elemental Heart (Corruption)",
+              "entries": [
+                  "The Elemental Heart embedded in Stonecrusher’s chest grants him additional powers but also causes instability:",
+                  "- **Increased Power:** Stonecrusher's melee attacks deal an additional {@damage 1d8} elemental (force) damage.",
+                  "- **Unstable Energy:** At the end of each of his turns, there is a 25% chance (roll a {@dice d4}, on a 1) that Stonecrusher emits a burst of energy, causing 10 ({@damage 3d6}) force damage to all creatures within 10 feet."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "The elemental makes two slam attacks."
+              ]
+          },
+          {
+              "name": "Slam",
+              "entries": [
+                  "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) force damage."
+              ]
+          },
+          {
+              "name": "Earthquake (Recharge 5-6)",
+              "entries": [
+                  "The elemental strikes the ground, creating a localized earthquake. All creatures within 20 feet of the elemental must make a {@dc 17} Strength saving throw or be knocked prone and take 14 ({@damage 4d6}) bludgeoning damage. On a successful save, they take half damage and are not knocked prone."
+              ]
+          },
+          {
+              "name": "Energy Burst (Triggered by Instability)",
+              "entries": [
+                  "At the end of each of Stonecrusher’s turns, there is a 25% chance he releases a burst of unstable energy. Each creature within 10 feet must make a {@dc 15} Dexterity saving throw, taking 10 ({@damage 3d6}) force damage on a failed save, or half as much damage on a successful one."
+              ]
+          }
+      ],
+      "actionTags": [
+          "Multiattack"
+      ],
+      "miscTags": [
+          "MW",
+          "AOE"
+      ],
+      "damageTags": [
+          "B",
+          "F"
+      ],
+      "savingThrowForced": [
+          "strength",
+          "dexterity"
+      ]
     }
   ]
 }
