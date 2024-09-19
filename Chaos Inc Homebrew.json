@@ -13,12 +13,27 @@
       }
     ]
   },
+  "_meta": {
+		"sources": [
+			{
+				"json": "ChaosIncHomebrew",
+				"abbreviation": "CIH",
+				"full": "ChaosIncHomebrew",
+				"url": "",
+				"authors": [
+          "Timothy Juckett"],
+				"convertedBy": []
+			}
+		]
+	},
   "monster": [
     {
       "name": "Nicodemus",
       "source": "ChaosIncHomebrew",
       "page": "0",
-      "size": "Large",
+      "size": [
+          "L"
+      ],
       "type": {
         "type": "Celestial",
         "tags": [
@@ -50,6 +65,7 @@
       "con": 16,
       "int": 30,
       "wis": 18,
+      "cha": 20,
       "save": {
         "dex": "+12",
         "intelligence": "+17",
@@ -3937,6 +3953,390 @@
           "restrained",
           "poisoned"
       ]
-    }  
+    },
+    
+    {
+      "name": "Darin Moonshadow",
+      "size": [
+          "M"
+      ],
+      "type": {
+          "type": "humanoid",
+          "tags": [
+              "human"
+          ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "N",
+          "E"
+      ],
+      "ac": [
+          {
+              "ac": 14,
+              "from": [
+                  "leather armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "10d8 + 20",
+          "average": 70
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 14,
+      "int": 14,
+      "wis": 12,
+      "cha": 18,
+      "save": {
+          "dex": "+7",
+          "cha": "+8"
+      },
+      "skills": {
+          "deception": "+8",
+          "insight": "+5",
+          "performance": "+8",
+          "persuasion": "+8"
+      },
+      "senses": [
+          "passive Perception 11"
+      ],
+      "passive": 11,
+      "languages": [
+          "Common",
+          "Elvish"
+      ],
+      "cr": "6",
+      "trait": [
+          {
+              "name": "Psychic Blades",
+              "entries": [
+                  "When Lyra hits a target with a weapon attack, she can deal an extra 3d6 psychic damage."
+              ]
+          },
+          {
+              "name": "Words of Terror",
+              "entries": [
+                  "Once per short rest, Lyra can speak to a creature for 1 minute. At the end of the conversation, the target must succeed on a DC 15 Wisdom saving throw or be frightened of Lyra for 1 hour."
+              ]
+          },
+          {
+              "name": "Mantle of Whispers",
+              "entries": [
+                  "When a humanoid dies within 30 feet of Lyra, she can capture its shadow. Using the shadow, she can disguise herself as that humanoid for 1 hour, gaining access to some of its memories."
+              ]
+          }
+      ],
+      "spellcasting": {
+          "name": "Spellcasting",
+          "headerEntries": [
+              "Lyra is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
+          ],
+          "spells": {
+              "0": {
+                  "spells": [
+                      "vicious mockery",
+                      "minor illusion",
+                      "mage hand"
+                  ]
+              },
+              "1": {
+                  "slots": 4,
+                  "spells": [
+                      "dissonant whispers",
+                      "healing word",
+                      "charm person"
+                  ]
+              },
+              "2": {
+                  "slots": 3,
+                  "spells": [
+                      "crown of madness",
+                      "invisibility",
+                      "phantasmal force"
+                  ]
+              },
+              "3": {
+                  "slots": 3,
+                  "spells": [
+                      "fear",
+                      "hypnotic pattern"
+                  ]
+              },
+              "4": {
+                  "slots": 1,
+                  "spells": [
+                      "greater invisibility"
+                  ]
+              }
+          }
+      },
+      "action": [
+          {
+              "name": "Rapier",
+              "entries": [
+                  "{@atk mw} +7 to hit, reach 5 ft., one target. {@h}10 (1d8 + 4) piercing damage."
+              ]
+          },
+          {
+              "name": "Psychic Blades",
+              "entries": [
+                  "When Lyra hits with a weapon attack, she can deal an additional 10 (3d6) psychic damage."
+              ]
+          }
+      ],
+      "environment": [
+          "urban",
+          "dungeon"
+      ]
+    },
+    {
+      "name": "Kael Stoneclaw",
+      "size": [
+          "M"
+      ],
+      "type": {
+          "type": "humanoid",
+          "tags": [
+              "human"
+          ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "L",
+          "N"
+      ],
+      "ac": [
+          {
+              "ac": 15,
+              "from": [
+                  "studded leather armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "12d10 + 24",
+          "average": 90
+      },
+      "speed": {
+          "walk": 35
+      },
+      "str": 16,
+      "dex": 18,
+      "con": 14,
+      "int": 10,
+      "wis": 16,
+      "cha": 10,
+      "save": {
+          "str": "+7",
+          "dex": "+8",
+          "wis": "+7"
+      },
+      "skills": {
+          "athletics": "+7",
+          "stealth": "+8",
+          "perception": "+7",
+          "survival": "+7"
+      },
+      "senses": [
+          "darkvision 60 ft.",
+          "passive Perception 17"
+      ],
+      "passive": 17,
+      "languages": [
+          "Common",
+          "Orcish"
+      ],
+      "cr": "7",
+      "trait": [
+          {
+              "name": "Dread Ambusher",
+              "entries": [
+                  "At the start of the first turn of combat, Brak's walking speed increases by 10 feet and he makes an extra attack that deals an additional 1d8 damage."
+              ]
+          },
+          {
+              "name": "Umbral Sight",
+              "entries": [
+                  "Brak is invisible to any creature that relies on darkvision to see him while he is in darkness."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "Brak makes two attacks with his longbow or scimitar."
+              ]
+          },
+          {
+              "name": "Longbow",
+              "entries": [
+                  "{@atk rw} +9 to hit, range 150/600 ft., one target. {@h}11 (1d8 + 5) piercing damage."
+              ]
+          },
+          {
+              "name": "Scimitar",
+              "entries": [
+                  "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}9 (1d6 + 5) slashing damage."
+              ]
+          },
+          {
+              "name": "Hunter's Mark (Bonus Action)",
+              "entries": [
+                  "Brak can mark a target within 90 feet. He deals an additional 1d6 damage to the target and has advantage on Perception and Survival checks to find it."
+              ]
+          }
+      ],
+      "environment": [
+          "forest",
+          "dungeon"
+      ]
+    },
+    {
+      "name": "Arcturus the Sage",
+      "size": [
+          "M"
+      ],
+      "type": {
+          "type": "humanoid",
+          "tags": [
+              "human"
+          ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "N",
+          "E"
+      ],
+      "ac": [
+          {
+              "ac": 12,
+              "from": [
+                  "mage armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "15d8 + 30",
+          "average": 97
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 14,
+      "int": 18,
+      "wis": 16,
+      "cha": 12,
+      "save": {
+          "int": "+8",
+          "wis": "+7"
+      },
+      "skills": {
+          "arcana": "+8",
+          "history": "+8",
+          "insight": "+7",
+          "perception": "+7"
+      },
+      "senses": [
+          "passive Perception 17"
+      ],
+      "passive": 17,
+      "languages": [
+          "Common",
+          "Elvish",
+          "Draconic"
+      ],
+      "cr": "9",
+      "trait": [
+          {
+              "name": "Portent",
+              "entries": [
+                  "Arcturus can foresee the future. At the start of each day, he rolls two d20s. These can replace any attack roll, saving throw, or ability check made by him or a creature he can see."
+              ]
+          },
+          {
+              "name": "Arcane Recovery",
+              "entries": [
+                  "Once per day during a short rest, Arcturus can recover up to 5 levels worth of spell slots."
+              ]
+          }
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+              "Arcturus is a 14th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following spells prepared:"
+          ],
+          "spells": {
+              "0": {
+                  "spells": [
+                      "{@spell fire bolt}",
+                      "{@spell ray of frost}",
+                      "{@spell mage hand}",
+                      "{@spell prestidigitation}"
+                  ]
+              },
+              "1": {
+                  "slots": 4,
+                  "spells": [
+                      "{@spell mage armor}",
+                      "{@spell shield}",
+                      "{@spell magic missile}",
+                      "{@spell detect magic}"
+                  ]
+              },
+              "2": {
+                  "slots": 3,
+                  "spells": [
+                      "{@spell misty step}",
+                      "{@spell mirror image}",
+                      "{@spell invisibility}"
+                  ]
+              },
+              "3": {
+                  "slots": 3,
+                  "spells": [
+                      "{@spell counterspell}",
+                      "{@spell fireball}",
+                      "{@spell dispel magic}"
+                  ]
+              },
+              "4": {
+                  "slots": 3,
+                  "spells": [
+                      "{@spell greater invisibility}",
+                      "{@spell dimension door}"
+                  ]
+              },
+              "5": {
+                  "slots": 2,
+                  "spells": [
+                      "{@spell wall of force}",
+                      "{@spell scrying}"
+                  ]
+              }
+          }
+        },
+      ],
+      "action": [
+          {
+              "name": "Arcane Blast",
+              "entries": [
+                  "Arcturus can use his action to unleash a blast of arcane energy. Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 20 (3d10 + 4) force damage."
+              ]
+          }
+      ],
+      "environment": [
+          "urban",
+          "dungeon"
+      ]
+    }
   ]
 }
