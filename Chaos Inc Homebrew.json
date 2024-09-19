@@ -3516,8 +3516,10 @@
           "L"
       ],
       "type": {
-          "type": "elemental"
+          "type": "elemental",
+          "tags": []
       },
+      "source": "ChaosIncHomebrew",
       "alignment": [
           "C",
           "N"
@@ -3548,7 +3550,7 @@
           "con": "+7",
           "wis": "+3"
       },
-      "damageResist": [
+      "resist": [
           "acid",
           {
               "resist": [
@@ -3560,7 +3562,7 @@
               "cond": true
           }
       ],
-      "damageImmune": [
+      "immune": [
           "poison"
       ],
       "conditionImmune": [
@@ -3569,15 +3571,14 @@
           "petrified",
           "poisoned"
       ],
-      "senses": {
-          "darkvision": 60,
-          "passive": 10
-      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 10,
       "languages": [
           "Primordial"
       ],
-      "challenge": "5",
-      "xp": 1800,
+      "cr": "5",
       "trait": [
           {
               "name": "Amphibious",
@@ -3659,6 +3660,7 @@
           "C",
           "N"
       ],
+      "source": "ChaosIncHomebrew",
       "ac": [
           {
               "ac": 8
@@ -3678,12 +3680,12 @@
       "int": 3,
       "wis": 8,
       "cha": 1,
-      "damageResist": [
+      "resist": [
           "acid",
           "bludgeoning",
           "piercing"
       ],
-      "damageImmune": [
+      "immune": [
           "poison"
       ],
       "conditionImmune": [
@@ -3695,10 +3697,10 @@
           "poisoned",
           "prone"
       ],
-      "senses": {
-          "blindsight": 60,
-          "passive": 9
-      },
+      "senses": [
+          "blindsight 60 ft."
+      ],
+      "passive": 9,
       "languages": [],
       "challenge": "3",
       "xp": 700,
@@ -3762,6 +3764,7 @@
       "type": {
           "type": "beast"
       },
+      "source": "ChaosIncHomebrew",
       "alignment": [
           "C",
           "N"
@@ -3788,24 +3791,23 @@
       "int": 3,
       "wis": 10,
       "cha": 4,
-      "damageResist": [
+      "resist": [
           "poison"
       ],
-      "damageImmune": [
+      "immune": [
           "psychic"
       ],
       "conditionImmune": [
           "charmed",
           "frightened"
       ],
-      "senses": {
-          "darkvision": 60,
-          "tremorsense": 30,
-          "passive": 10
-      },
+      "senses": [
+          "darkvision 60 ft.",
+          "tremorsense 30 ft."
+      ],
+      "passive": 10,
       "languages": [],
-      "challenge": "2",
-      "xp": 450,
+      "cr": "2",
       "trait": [],
       "action": [
           {
@@ -3856,6 +3858,7 @@
       "type": {
           "type": "beast"
       },
+      "source": "ChaosIncHomebrew",
       "alignment": [
           "C",
           "N"
@@ -3879,23 +3882,22 @@
       "int": 2,
       "wis": 10,
       "cha": 3,
-      "damageResist": [
+      "resist": [
           "poison"
       ],
-      "damageImmune": [
+      "immune": [
           "psychic"
       ],
       "conditionImmune": [
           "charmed",
           "frightened"
       ],
-      "senses": {
-          "darkvision": 60,
-          "passive": 10
-      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 10,
       "languages": [],
-      "challenge": "2",
-      "xp": 450,
+      "cr": "2",
       "trait": [],
       "action": [
           {
