@@ -2796,7 +2796,7 @@
 				"T"
 			],
 			"languages": [
-				"understands the languages of its creator but cannot speak"
+				"understands and speaks the languages of its creator"
 			],
 			"damageResistances": [
 				"bludgeoning",
@@ -2819,10 +2819,10 @@
 					"name": "Random Elemental Power",
 					"entries": [
 						"Each warforged beetle has one random elemental power, determined at the time of its creation. Roll a {@dice d4} to determine the elemental power:",
-						"1. Fire: The beetle deals an additional {@dice 1d6} fire damage with its attacks. It also has resistance to fire damage.",
-						"2. Ice: The beetle deals an additional {@dice 1d6} cold damage with its attacks. It also has resistance to cold damage.",
-						"3. Lightning: The beetle deals an additional {@dice 1d6} lightning damage with its attacks. It also has resistance to lightning damage.",
-						"4. Acid: The beetle deals an additional {@dice 1d6} acid damage with its attacks. It also has resistance to acid damage."
+						"1. Fire: The beetle has resistance to fire damage.",
+						"2. Ice: The beetle has resistance to cold damage.",
+						"3. Lightning: The beetle has resistance to lightning damage.",
+						"4. Acid: The beetle has resistance to acid damage."
 					]
 				},
 				{
@@ -2842,19 +2842,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Saw Blade",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage plus 3 ({@damage 1d6}) elemental damage (type based on Random Elemental Power)."
+						"{@atk rw} {@hit 4} to hit, range 75/150 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Elemental Charge",
 					"entries": [
-						"When the beetle takes 15 or more damage in a single turn, it becomes charged with elemental energy. At the start of its next turn, it can release this energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
+						"When the beetle takes 20 or more damage in a single turn, it becomes charged with elemental energy. At the start of its next turn, it can release this energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) elemental damage on a failed save, or half as much damage on a successful one. The type of damage is the same as the beetle's Random Elemental Power."
 					]
 				},
 				{
@@ -4788,6 +4788,386 @@
 				"dexterity",
 				"wisdom"
 			]
-		}
+		},
+    {
+      "name": "Blue Wyvern",
+      "size": [
+          "L"
+      ],
+      "type": {
+          "type": "dragon",
+          "tags": []
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "U"
+      ],
+      "ac": [
+          {
+              "ac": 15,
+              "from": [
+                  "natural armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "16d10 + 48",
+          "average": 136
+      },
+      "speed": {
+          "walk": 20,
+          "fly": 80
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 16,
+      "int": 5,
+      "wis": 12,
+      "cha": 6,
+      "save": {
+          "dex": "+3",
+          "con": "+6",
+          "wis": "+4"
+      },
+      "skills": {
+          "perception": "+3"
+      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+          "understands Draconic but cannot speak"
+      ],
+      "cr": "6",
+      "resist": [
+          {
+              "resist": [
+                  "lightning"
+              ],
+              "note": "For Lightning Wyvern"
+          },
+          {
+              "resist": [
+                  "cold"
+              ],
+              "note": "For Water Wyvern"
+          }
+      ],
+      "trait": [
+          {
+              "name": "Flyby",
+              "entries": [
+                  "The wyvern doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+              ]
+          },
+          {
+              "name": "Aerial Dive",
+              "entries": [
+                  "If the wyvern moves at least 30 feet straight toward a target and then hits it with a melee attack on the same turn, the attack deals an extra 10 (3d6) damage."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "The wyvern makes two attacks: one with its bite and one with its tail."
+              ]
+          },
+          {
+              "name": "Bite",
+              "entries": [
+                  "{@atk mw} +7 to hit, reach 10 ft., one target. {@h}15 (2d8 + 6) piercing damage."
+              ]
+          },
+          {
+              "name": "Tail",
+              "entries": [
+                  "{@atk mw} +7 to hit, reach 10 ft., one target. {@h}13 (2d6 + 6) piercing damage. The target must succeed on a {@dc 15} Constitution saving throw or become poisoned for 1 minute."
+              ]
+          },
+          {
+              "name": "Elemental Breath Weapon (Recharge 5-6)",
+              "entries": [
+                  "The wyvern exhales a blast of elemental energy. Depending on the type, this could be a blast of lightning or a torrent of water.",
+                  "Lightning Wyvern: Exhales lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one.",
+                  "Water Wyvern: Exhales a torrent of freezing water in a 30-foot cone. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+              ]
+          }
+      ],
+      "environment": [
+          "mountain",
+          "cave"
+      ]
+    },
+    {
+      "name": "Warforged Guard",
+      "size": [
+          "L"
+      ],
+      "type": {
+          "type": "construct",
+          "tags": []
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "L",
+          "N"
+      ],
+      "ac": [
+          {
+              "ac": 18,
+              "from": [
+                  "natural armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "17d10 + 85",
+          "average": 178
+      },
+      "speed": {
+          "walk": 40
+      },
+      "str": 20,
+      "dex": 12,
+      "con": 20,
+      "int": 8,
+      "wis": 12,
+      "cha": 10,
+      "save": {
+          "str": "+9",
+          "con": "+9",
+          "wis": "+5"
+      },
+      "skills": {
+          "athletics": "+9",
+          "perception": "+5"
+      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+          "understands Common but cannot speak"
+      ],
+      "cr": "9",
+      "resist": [
+          {
+              "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+              ],
+              "note": "from nonmagical attacks"
+          }
+      ],
+      "immune": [
+          "poison",
+          "psychic"
+      ],
+      "conditionImmune": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+      ],
+      "trait": [
+          {
+              "name": "Constructed Resilience",
+              "entries": [
+                  "The Warforged Guard has advantage on saving throws against being poisoned, and it doesn’t need to eat, drink, or breathe."
+              ]
+          },
+          {
+              "name": "Immutable Form",
+              "entries": [
+                  "The Warforged Guard is immune to any spell or effect that would alter its form."
+              ]
+          },
+          {
+              "name": "Magic Resistance",
+              "entries": [
+                  "The Warforged Guard has advantage on saving throws against spells and other magical effects."
+              ]
+          },
+          {
+              "name": "Magically Reinforced Armor",
+              "entries": [
+                  "When the Warforged Guard is reduced to half of its hit points, it gains resistance to all damage (except force damage) for 3 rounds. This ability recharges after a short rest."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "The Warforged Guard makes three attacks: one with its Heavy Slam and two with its Blade Arm."
+              ]
+          },
+          {
+              "name": "Heavy Slam",
+              "entries": [
+                  "{@atk mw} +9 to hit, reach 10 ft., one target. {@h}21 (3d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+              ]
+          },
+          {
+              "name": "Blade Arm",
+              "entries": [
+                  "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}17 (2d10 + 5) slashing damage."
+              ]
+          },
+          {
+              "name": "Cannon Blast (Recharge 5-6)",
+              "entries": [
+                  "The Warforged Guard uses its cannon to release elemental energy. The Guard chooses one of the following options:",
+                  "Fire Cannon: The Guard shoots a 30-foot cone of fire. Each creature in the area must make a {@dc 17} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save, or half as much on a successful one.",
+                  "Force Cannon: The Guard shoots a 60-foot line of force energy that is 5 feet wide. Each creature in that line must make a {@dc 17} Dexterity saving throw, taking 28 ({@damage 8d6}) force damage on a failed save, or half as much damage on a successful one, and is knocked back 10 feet."
+              ]
+          }
+      ],
+      "reaction": [
+          {
+              "name": "Reactive Armor Plating",
+              "entries": [
+                  "When a creature within 5 feet of the Warforged Guard hits it with a melee attack, the Guard can release a shockwave from its armor. The attacker must make a {@dc 17} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
+              ]
+          }
+      ],
+      "environment": [
+          "dungeon",
+          "urban"
+      ]
+    },
+    {
+      "name": "Astral Conclave Automaton",
+      "size": [
+          "L"
+      ],
+      "type": {
+          "type": "construct",
+          "tags": []
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "U"
+      ],
+      "ac": [
+          {
+              "ac": 17,
+              "from": [
+                  "natural armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "15d10 + 30",
+          "average": 112
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 5,
+      "wis": 10,
+      "cha": 5,
+      "save": {
+          "str": "+7",
+          "con": "+6"
+      },
+      "skills": {
+          "perception": "+3",
+          "athletics": "+7"
+      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+          "understands Common but cannot speak"
+      ],
+      "cr": "6",
+      "resist": [
+          {
+              "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+              ],
+              "note": "from nonmagical attacks"
+          }
+      ],
+      "immune": [
+          "poison",
+          "psychic"
+      ],
+      "conditionImmune": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+      ],
+      "trait": [
+          {
+              "name": "Magical Resistance",
+              "entries": [
+                  "The Automaton has advantage on saving throws against spells and other magical effects."
+              ]
+          },
+          {
+              "name": "Heavy Plating",
+              "entries": [
+                  "When the Automaton is at half hit points or below, it gains resistance to all damage except force damage."
+              ]
+          },
+          {
+              "name": "Relentless Construction",
+              "entries": [
+                  "Once per short rest, when the Automaton is reduced to 0 hit points, it can make a {@dc 15} Constitution saving throw. On a success, it regains 25 hit points."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "The Automaton makes two attacks: one with its Saw Blade Arm and one with its Energy Cannon."
+              ]
+          },
+          {
+              "name": "Saw Blade Arm",
+              "entries": [
+                  "{@atk mw} +7 to hit, reach 5 ft., one target. {@h}16 (2d10 + 4) slashing damage."
+              ]
+          },
+          {
+              "name": "Energy Cannon (Recharge 5-6)",
+              "entries": [
+                  "The Automaton releases a blast of elemental energy from its integrated cannon. The Automaton chooses between fire or lightning damage.",
+                  "Fire Cannon: The Automaton fires a 15-foot cone of fire. Each creature in the area must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) fire damage on a failed save, or half as much on a successful one.",
+                  "Lightning Cannon: The Automaton fires a 30-foot line of lightning that is 5 feet wide. Each creature in the line must make a {@dc 14} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much on a successful one."
+              ]
+          }
+      ],
+      "reaction": [
+          {
+              "name": "Defensive Overcharge",
+              "entries": [
+                  "When the Automaton is hit by a melee attack, it can use its reaction to release a pulse of energy. The attacker must succeed on a {@dc 15} Strength saving throw or be pushed back 10 feet and take 9 ({@damage 2d8}) thunder damage."
+              ]
+          }
+      ],
+      "environment": [
+          "dungeon",
+          "urban"
+      ]
+    }
 	]
 }
