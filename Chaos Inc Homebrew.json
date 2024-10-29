@@ -5168,6 +5168,209 @@
           "dungeon",
           "urban"
       ]
+    },
+    {
+      "name": "Astral Conclave Mage",
+      "size": [
+          "M"
+      ],
+      "type": {
+          "type": "humanoid",
+          "tags": [
+              "astral conclave"
+          ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "NE"
+      ],
+      "ac": [
+          {
+              "ac": 15,
+              "from": [
+                  "mage armor"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "11d8 + 22",
+          "average": 71
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 14,
+      "int": 18,
+      "wis": 12,
+      "cha": 11,
+      "save": {
+          "int": "+7",
+          "wis": "+4"
+      },
+      "skills": {
+          "arcana": "+7",
+          "history": "+7",
+          "insight": "+4"
+      },
+      "passive": 11,
+      "languages": [
+          "Common",
+          "Elvish",
+          "Draconic"
+      ],
+      "cr": "5",
+      "spellcasting": [
+          {
+              "name": "Spellcasting",
+              "headerEntries": [
+                  "The Astral Conclave Mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The mage has the following spells prepared:"
+              ],
+              "spells": {
+                  "0": {
+                      "spells": [
+                          "{@spell fire bolt}",
+                          "{@spell prestidigitation}",
+                          "{@spell mage hand}"
+                      ]
+                  },
+                  "1": {
+                      "spells": [
+                          "{@spell shield}",
+                          "{@spell magic missile}",
+                          "{@spell detect magic}"
+                      ],
+                      "slots": 4
+                  },
+                  "2": {
+                      "spells": [
+                          "{@spell mirror image}",
+                          "{@spell misty step}"
+                      ],
+                      "slots": 3
+                  },
+                  "3": {
+                      "spells": [
+                          "{@spell counterspell}",
+                          "{@spell fireball}"
+                      ],
+                      "slots": 3
+                  },
+                  "4": {
+                      "spells": [
+                          "{@spell greater invisibility}",
+                          "{@spell ice storm}"
+                      ],
+                      "slots": 3
+                  },
+                  "5": {
+                      "spells": [
+                          "{@spell wall of force}"
+                      ],
+                      "slots": 1
+                  }
+              },
+              "ability": "int",
+              "type": "spellcasting"
+          }
+      ],
+      "action": [
+          {
+              "name": "Dagger",
+              "entries": [
+                  "{@atk mw} +6 to hit, reach 5 ft., one target. {@h}5 (1d4 + 3) piercing damage."
+              ]
+          }
+      ],
+      "environment": [
+          "dungeon",
+          "urban"
+      ]
+    },
+    {
+      "name": "Astral Conclave Guard",
+      "size": [
+          "M"
+      ],
+      "type": {
+          "type": "humanoid",
+          "tags": [
+              "astral conclave"
+          ]
+      },
+      "source": "ChaosIncHomebrew",
+      "alignment": [
+          "LE"
+      ],
+      "ac": [
+          {
+              "ac": 16,
+              "from": [
+                  "chain mail",
+                  "shield"
+              ]
+          }
+      ],
+      "hp": {
+          "formula": "8d8 + 16",
+          "average": 52
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "save": {
+          "str": "+5",
+          "con": "+4",
+          "wis": "+3"
+      },
+      "skills": {
+          "perception": "+4",
+          "athletics": "+5"
+      },
+      "passive": 14,
+      "languages": [
+          "Common"
+      ],
+      "cr": "3",
+      "trait": [
+          {
+              "name": "Martial Advantage",
+              "entries": [
+                  "Once per turn, the Astral Conclave Guard can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the guard that isn't incapacitated."
+              ]
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "The guard makes two melee attacks."
+              ]
+          },
+          {
+              "name": "Longsword",
+              "entries": [
+                  "{@atk mw} +5 to hit, reach 5 ft., one target. {@h}7 (1d8 + 3) slashing damage."
+              ]
+          },
+          {
+              "name": "Heavy Crossbow",
+              "entries": [
+                  "{@atk rw} +4 to hit, range 100/400 ft., one target. {@h}8 (1d10 + 2) piercing damage."
+              ]
+          }
+      ],
+      "environment": [
+          "dungeon",
+          "urban"
+      ]
     }
 	]
 }
