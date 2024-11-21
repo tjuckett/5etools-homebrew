@@ -5371,6 +5371,175 @@
           "dungeon",
           "urban"
       ]
+    },
+    {
+      "name": "Vesper 'Pinkshade' Arlin",
+      "source": "ChaosIncHomebrew",
+      "size": ["M"],
+      "type": {
+          "type": "humanoid",
+          "tags": ["half-elf"]
+      },
+      "alignment": ["LE"],
+      "ac": [
+          {
+              "ac": 18,
+              "from": ["studded leather"]
+          }
+      ],
+      "hp": {
+          "formula": "16d8 + 32",
+          "average": 104
+      },
+      "speed": {
+          "walk": 30
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 14,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+          "dex": "+8",
+          "int": "+5"
+      },
+      "skills": {
+          "acrobatics": "+8",
+          "stealth": "+10",
+          "perception": "+7",
+          "deception": "+7"
+      },
+      "senses": [
+          "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "languages": ["Common", "Elvish", "Thieves' Cant"],
+      "cr": "9",
+      "trait": [
+          {
+              "name": "Evasion",
+              "entries": [
+                  "When Vesper is subjected to an effect that allows her to make a Dexterity saving throw to take half damage, she instead takes no damage on a success and only half damage on a failure."
+              ]
+          },
+          {
+              "name": "Uncanny Dodge",
+              "entries": [
+                  "When a creature Vesper can see hits her with an attack, she can use her reaction to halve the attack's damage."
+              ]
+          },
+          {
+              "name": "Cunning Action",
+              "entries": [
+                  "Vesper can take a bonus action on each of her turns to Dash, Disengage, or Hide."
+              ]
+          },
+          {
+              "name": "Sneak Attack",
+              "entries": [
+                  "Once per turn, Vesper deals an extra 5d6 damage when she hits a creature with a weapon attack if she has advantage on the attack roll, or when the target is within 5 feet of an ally of Vesper that isn't incapacitated, and Vesper doesn't have disadvantage on the attack roll."
+              ]
+          },
+          {
+              "name": "Amulet of Elemental Bane",
+              "entries": [
+                  "This amulet allows Vesper to mark an elemental as her target as a bonus action. The marked elemental has disadvantage on saving throws against her attacks and spells, and her weapon attacks deal an extra 2d6 force damage to the marked elemental."
+              ]
+          }
+      ],
+      "spellcasting": [
+          {
+              "name": "Spellcasting",
+              "headerEntries": [
+                  "Vesper is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:"
+              ],
+              "spells": {
+                  "0": {
+                      "spells": [
+                          "{@spell mage hand}",
+                          "{@spell minor illusion}",
+                          "{@spell ray of frost}"
+                      ]
+                  },
+                  "1": {
+                      "spells": [
+                          "{@spell disguise self}",
+                          "{@spell shield}",
+                          "{@spell silent image}"
+                      ],
+                      "slots": 4
+                  },
+                  "2": {
+                      "spells": [
+                          "{@spell invisibility}",
+                          "{@spell mirror image}",
+                          "{@spell suggestion}"
+                      ],
+                      "slots": 3
+                  },
+                  "3": {
+                      "spells": [
+                          "{@spell counterspell}",
+                          "{@spell fear}",
+                          "{@spell lightning bolt}"
+                      ],
+                      "slots": 3
+                  }
+              },
+              "ability": "int",
+              "type": "spellcasting"
+          }
+      ],
+      "action": [
+          {
+              "name": "Multiattack",
+              "entries": [
+                  "Vesper makes two attacks with her rapier or shortbow."
+              ]
+          },
+          {
+              "name": "Rapier",
+              "entries": [
+                  "{@atk mw} +8 to hit, reach 5 ft., one target. {@h}9 (1d8 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
+              ]
+          },
+          {
+              "name": "Shortbow",
+              "entries": [
+                  "{@atk rw} +8 to hit, range 80/320 ft., one target. {@h}8 (1d6 + 4) piercing damage plus 5d6 Sneak Attack damage if applicable."
+              ]
+          },
+          {
+              "name": "Mark Elemental (Amulet of Elemental Bane)",
+              "entries": [
+                  "Vesper uses a bonus action to mark an elemental she can see within 60 feet. The mark lasts for 1 minute or until the elemental is defeated. While the mark is active, her weapon attacks deal an extra 2d6 force damage to the elemental, and it has disadvantage on saving throws against her spells."
+              ]
+          }
+      ],
+      "reaction": [
+          {
+              "name": "Uncanny Dodge",
+              "entries": [
+                  "When Vesper is hit by an attack, she can use her reaction to halve the attack's damage."
+              ]
+          }
+      ],
+      "environment": ["urban", "dungeon"],
+      "loot": [
+        {
+          "name": "Dagger of Venom",
+          "entries": [
+            "A magical dagger that Vesper wields. It can apply poison as a bonus action (3d6 poison damage, DC 15 Constitution save)."
+          ]
+        },
+        {
+          "name": "Shadow Cloak",
+          "entries": [
+            "This enchanted cloak allows Vesper to cast {@spell invisibility} on herself once per short rest."
+          ]
+        }
+      ]
     }
 	]
 }
