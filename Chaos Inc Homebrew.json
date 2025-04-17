@@ -6333,6 +6333,74 @@
             }
         ],
         "cr": "8"
-    }	
+    },
+    {
+      "name": "Jessa 'The Wraith' Cael",
+      "source": "ChaosIncHomebrew",
+      "type": "humanoid",
+      "alignment": ["CE"],
+      "size": ["M"],
+      "ac": [{ "ac": 17, "from": ["Shadow Phase Enhancer"] }],
+      "hp": { "average": 88, "formula": "13d8 + 26" },
+      "speed": { "walk": 40 },
+      "str": 10, "dex": 20, "con": 14, "int": 12, "wis": 13, "cha": 14,
+      "save": { "dex": "+9", "int": "+5" },
+      "skills": {
+        "acrobatics": "+9",
+        "stealth": "+11",
+        "sleight of hand": "+8",
+        "perception": "+5",
+        "deception": "+6"
+      },
+      "passive": 15,
+      "languages": ["Common", "Thieves' Cant"],
+      "trait": [
+        {
+          "name": "Shadow Phase (3/day)",
+          "entries": [
+            "Jessa can become incorporeal as a bonus action for 1 round. During this time, she can move through creatures and objects as if they were difficult terrain. If she ends her turn inside an object, she takes 5 (1d10) force damage."
+          ]
+        },
+        {
+          "name": "Experimental Cloak System",
+          "entries": [
+            "While in dim light or darkness, Jessa has advantage on Stealth checks and can attempt to Hide as a bonus action, even if observed."
+          ]
+        },
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During her first turn, Jessa has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit Jessa scores against a surprised creature is a critical hit."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": ["Jessa makes two melee attacks with her modified daggers."]
+        },
+        {
+          "name": "Modified Dagger",
+          "entries": [
+            "{@atk mw} +9 to hit, reach 5 ft., one target. {@h}9 ({@damage 1d4 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. On a critical hit, the target must succeed on a DC 15 Constitution saving throw or be paralyzed until the end of their next turn."
+          ]
+        },
+        {
+          "name": "Phase Slash (Recharge 5-6)",
+          "entries": [
+            "Jessa teleports up to 30 feet and makes one melee attack against a creature she appears adjacent to. On a hit, the target takes an extra 10 (3d6) force damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shadow Dodge",
+          "entries": [
+            "When a creature Jessa can see targets her with an attack, she can impose disadvantage as she flickers through nearby shadows."
+          ]
+        }
+      ],
+      "cr": "7"
+    }
 	]
 }
